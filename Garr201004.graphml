@@ -1,0 +1,1966 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">       
+        <key for="node" id="d50" yfiles.type="nodegraphics"/>
+<key for="edge" id="d51" yfiles.type="edgegraphics"/>"
+  <key attr.name="Access" attr.type="boolean" for="graph" id="d18" />
+  <key attr.name="Backbone" attr.type="boolean" for="graph" id="d10" />
+  <key attr.name="Commercial" attr.type="boolean" for="graph" id="d11" />
+  <key attr.name="Creator" attr.type="string" for="graph" id="d20" />
+  <key attr.name="Customer" attr.type="boolean" for="graph" id="d13" />
+  <key attr.name="DateModifier" attr.type="string" for="graph" id="d15" />
+  <key attr.name="DateMonth" attr.type="string" for="graph" id="d16" />
+  <key attr.name="DateObtained" attr.type="string" for="graph" id="d0" />
+  <key attr.name="DateType" attr.type="string" for="graph" id="d9" />
+  <key attr.name="DateYear" attr.type="string" for="graph" id="d24" />
+  <key attr.name="Developed" attr.type="boolean" for="graph" id="d21" />
+  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d2" />
+  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d1" />
+  <key attr.name="IX" attr.type="boolean" for="graph" id="d14" />
+  <key attr.name="Internal" attr.type="boolean" for="node" id="d28" />
+  <key attr.name="LastAccess" attr.type="string" for="graph" id="d17" />
+  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d25" />
+  <key attr.name="Layer" attr.type="string" for="graph" id="d19" />
+  <key attr.name="Network" attr.type="string" for="graph" id="d3" />
+  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d23" />
+  <key attr.name="Note" attr.type="string" for="graph" id="d5" />
+  <key attr.name="Provenance" attr.type="string" for="graph" id="d4" />
+  <key attr.name="Source" attr.type="string" for="graph" id="d6" />
+  <key attr.name="Testbed" attr.type="boolean" for="graph" id="d26" />
+  <key attr.name="Transit" attr.type="boolean" for="graph" id="d22" />
+  <key attr.name="Type" attr.type="string" for="graph" id="d8" />
+  <key attr.name="Version" attr.type="string" for="graph" id="d7" />
+  <key attr.name="geocode_name" attr.type="string" for="node" id="d29" />
+  <key attr.name="label" attr.type="string" for="edge" id="d31" />
+  <key attr.name="label" attr.type="string" for="node" id="d27" />
+  <graph edgedefault="undirected">
+    <data key="d0">21/10/10</data>
+    <data key="d1">Italy</data>
+    <data key="d2">Country</data>
+    <data key="d3">GARR</data>
+    <data key="d4">Primary</data>
+    <data key="d5">New GARR-X functionality roll-out, experimental or testbed? Names from http://www.noc.garr.it/mappe/ and http://www.garr.it/stampaGARR/netbul/netbul0710.php CO unclear, appears to be Milan-Colombo PoP</data>
+    <data key="d6">http://www.garr.it/index.php/rete/infrastruttura-di-rete/mappa-della-rete/48</data>
+    <data key="d7">1.0</data>
+    <data key="d8">REN</data>
+    <data key="d9">Historic</data>
+    <data key="d10">True</data>
+    <data key="d11">False</data>
+    <data key="d13">False</data>
+    <data key="d14">False</data>
+    <data key="d15">=</data>
+    <data key="d16">04</data>
+    <data key="d17">21/10/10</data>
+    <data key="d18">False</data>
+    <data key="d19">IP</data>
+    <data key="d20">Topology Zoo Toolset</data>
+    <data key="d21">True</data>
+    <data key="d22">True</data>
+    <data key="d23">2010_04</data>
+    <data key="d24">2010</data>
+    <data key="d25">2011_08_17</data>
+    <data key="d26">False</data>
+    <node id="0">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="317.56918335" y="379.384460449"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">MI-5</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">MI-5</data>
+      <data key="d28">True</data>
+      <data key="d29">Milan</data>
+    </node>
+    <node id="1">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="79.682723999" y="380.689025879"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">TO-PIX</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">TO-PIX</data>
+    </node>
+    <node id="2">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="403.607208252" y="699.925415039"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">RM-2</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">RM-2</data>
+      <data key="d28">True</data>
+      <data key="d29">Roma</data>
+    </node>
+    <node id="3">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="293.795715332" y="311.591247559"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Mi-4</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Mi-4</data>
+      <data key="d28">True</data>
+      <data key="d29">Milan</data>
+    </node>
+    <node id="4">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="418.638549805" y="425.054412842"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Fe</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Fe</data>
+      <data key="d28">True</data>
+      <data key="d29">Ferrara</data>
+    </node>
+    <node id="5">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="216.074325562" y="368.60067749"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Pv</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Pv</data>
+      <data key="d28">True</data>
+      <data key="d29">Pavia</data>
+    </node>
+    <node id="6">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="305.679382324" y="547.127380371"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">PI</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">PI</data>
+      <data key="d28">True</data>
+      <data key="d29">Pisa</data>
+    </node>
+    <node id="7">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="446.250244141" y="531.301452637"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Ur</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Ur</data>
+      <data key="d28">True</data>
+      <data key="d29">Urbino</data>
+    </node>
+    <node id="8">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="129.743453979" y="306.467468262"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Google</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">Google</data>
+    </node>
+    <node id="9">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="318.457641602" y="153.956436157"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">GEANT</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">GEANT</data>
+    </node>
+    <node id="10">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="431.156982422" y="209.766738892"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Global Crossing</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">Global Crossing</data>
+    </node>
+    <node id="11">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="278.009887695" y="145.071380615"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">GEANT</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">GEANT</data>
+    </node>
+    <node id="12">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="362.241027832" y="230.466140747"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Svizzera</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">Svizzera</data>
+    </node>
+    <node id="13">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="126.49282074" y="891.925476074"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">CA</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">CA</data>
+      <data key="d28">True</data>
+      <data key="d29">Cagliari</data>
+    </node>
+    <node id="14">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="473.103057861" y="619.600341797"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">AQ-1</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">AQ-1</data>
+      <data key="d28">True</data>
+      <data key="d29">L Aquila</data>
+    </node>
+    <node id="15">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="162.235839844" y="780.948120117"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">SS</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">SS</data>
+      <data key="d28">True</data>
+      <data key="d29">Sassari</data>
+    </node>
+    <node id="16">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="168.292800903" y="893.137573242"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">CA-1</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">CA-1</data>
+      <data key="d28">True</data>
+      <data key="d29">Cagliari</data>
+    </node>
+    <node id="17">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="329.630401611" y="815.839660645"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">NAMEX</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">NAMEX</data>
+    </node>
+    <node id="18">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="432.648651123" y="675.441589355"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">RM-1</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">RM-1</data>
+      <data key="d28">True</data>
+      <data key="d29">Roma</data>
+    </node>
+    <node id="19">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="428.490539551" y="598.248840332"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">PG</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">PG</data>
+      <data key="d28">True</data>
+      <data key="d29">Perugia</data>
+    </node>
+    <node id="20">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="483.693786621" y="552.653747559"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">AN</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">AN</data>
+      <data key="d28">True</data>
+      <data key="d29">Ancona</data>
+    </node>
+    <node id="21">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="482.598083496" y="657.472961426"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">AQ</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">AQ</data>
+      <data key="d28">True</data>
+      <data key="d29">L Aquila</data>
+    </node>
+    <node id="22">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="455.723205566" y="707.33795166"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">FRA</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">FRA</data>
+      <data key="d28">True</data>
+      <data key="d29">Frascati</data>
+    </node>
+    <node id="23">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="557.794250488" y="710.272949219"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">CB</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">CB</data>
+      <data key="d28">True</data>
+      <data key="d29">Campobasso</data>
+    </node>
+    <node id="24">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="645.417907715" y="738.137268066"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">FG</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">FG</data>
+      <data key="d28">True</data>
+      <data key="d29">Foggia</data>
+    </node>
+    <node id="25">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="687.336669922" y="785.179870605"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">BA</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">BA</data>
+      <data key="d28">True</data>
+      <data key="d29">Bari</data>
+    </node>
+    <node id="26">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="777.316772461" y="853.401245117"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">LE</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">LE</data>
+      <data key="d28">True</data>
+      <data key="d29">Lecce</data>
+    </node>
+    <node id="27">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="672.617919922" y="835.264953613"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">MT</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">MT</data>
+      <data key="d28">True</data>
+      <data key="d29">Matera</data>
+    </node>
+    <node id="28">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="631.856323242" y="815.565795898"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">PZ</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">PZ</data>
+      <data key="d28">True</data>
+      <data key="d29">Potenza</data>
+    </node>
+    <node id="29">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="541.611206055" y="806.184631348"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">SA</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">SA</data>
+      <data key="d28">True</data>
+      <data key="d29">Salerno</data>
+    </node>
+    <node id="30">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="507.229125977" y="776.291503906"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">NA</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">NA</data>
+      <data key="d28">True</data>
+      <data key="d29">Napoli</data>
+    </node>
+    <node id="31">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="559.283813477" y="998.471069336"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">ME</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">ME</data>
+      <data key="d28">True</data>
+      <data key="d29">Messina</data>
+    </node>
+    <node id="32">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="621.911987305" y="949.160949707"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">CS</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">CS</data>
+      <data key="d28">True</data>
+      <data key="d29">Cosenza</data>
+    </node>
+    <node id="33">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="530.02557373" y="1081.42297363"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">CT</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">CT</data>
+      <data key="d28">True</data>
+      <data key="d29">Catania</data>
+    </node>
+    <node id="34">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="430.963531494" y="1006.62207031"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">PA</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">PA</data>
+      <data key="d28">True</data>
+      <data key="d29">Palermo</data>
+    </node>
+    <node id="35">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="716.525756836" y="1186.54211426"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">EUMED CONNECT</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">EUMED CONNECT</data>
+    </node>
+    <node id="36">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="134.9009552" y="227.790405273"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">MIX    </y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">MIX    </data>
+    </node>
+    <node id="37">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="200.852981567" y="217.794631958"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">TELIA</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">TELIA</data>
+    </node>
+    <node id="38">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="488.51461792" y="413.606750488"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">VSIX</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">VSIX</data>
+    </node>
+    <node id="39">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="512.032165527" y="336.406585693"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">TS-1</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">TS-1</data>
+      <data key="d28">True</data>
+      <data key="d29">Trieste</data>
+    </node>
+    <node id="40">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="410.892883301" y="379.957000732"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">PD</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">PD</data>
+      <data key="d28">True</data>
+      <data key="d29">Padova</data>
+    </node>
+    <node id="41">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="468.19152832" y="376.420593262"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">VE</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">VE</data>
+      <data key="d28">True</data>
+      <data key="d29">Venezia</data>
+    </node>
+    <node id="42">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="381.760253906" y="309.466583252"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">TN</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">TN</data>
+      <data key="d28">True</data>
+      <data key="d29">Trento</data>
+    </node>
+    <node id="43">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="294.404785156" y="340.62991333"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">MI-1</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">MI-1</data>
+      <data key="d28">True</data>
+      <data key="d29">Milan</data>
+    </node>
+    <node id="44">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="252.021789551" y="306.744750977"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">CO</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">CO</data>
+      <data key="d28">True</data>
+      <data key="d29">Milan</data>
+    </node>
+    <node id="45">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="249.599807739" y="343.311431885"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">MI-2</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">MI-2</data>
+      <data key="d28">True</data>
+      <data key="d29">Milan</data>
+    </node>
+    <node id="46">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="161.021148682" y="366.978393555"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">TO</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">TO</data>
+      <data key="d28">True</data>
+      <data key="d29">Turin</data>
+    </node>
+    <node id="47">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="208.59928894" y="440.700714111"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">GE</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">GE</data>
+      <data key="d28">True</data>
+      <data key="d29">Genova</data>
+    </node>
+    <node id="48">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="340.67678833" y="515.862731934"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Fi</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Fi</data>
+      <data key="d28">True</data>
+      <data key="d29">Firenze</data>
+    </node>
+    <node id="49">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="372.822723389" y="531.660461426"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">FI</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">FI</data>
+      <data key="d28">True</data>
+      <data key="d29">Firenze</data>
+    </node>
+    <node id="50">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="385.585449219" y="438.497467041"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">BO</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">BO</data>
+      <data key="d28">True</data>
+      <data key="d29">Bologna</data>
+    </node>
+    <node id="51">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="276.522918701" y="369.403961182"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">MI-3</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">MI-3</data>
+      <data key="d28">True</data>
+      <data key="d29">Milan</data>
+    </node>
+    <node id="52">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="618.477416992" y="995.408325195"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">CZ</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">CZ</data>
+      <data key="d28">True</data>
+      <data key="d29">Catanzaro</data>
+    </node>
+    <node id="53">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="25.0" width="25.0" x="288.929016113" y="597.408081055"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">TIX</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">TIX</data>
+    </node>
+    <edge source="0" target="51">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="294.593597412" y="389.716400146"/>	</y:Path>
+
+            <y:LineStyle color="#800080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">1 Gbps</data>
+    </edge>
+    <edge source="1" target="46">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#808080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Peering, 1 Gbps</data>
+    </edge>
+    <edge source="2" target="50">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="390.411712646" y="487.641784668"/>	</y:Path>
+
+            <y:LineStyle color="#FF00FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">10 Gbps</data>
+    </edge>
+    <edge source="2" target="6">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="321.044769287" y="570.529724121"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="2" target="45">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="331.384979248" y="543.717163086"/>	</y:Path>
+
+            <y:LineStyle color="#FF00FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">10 Gbps</data>
+    </edge>
+    <edge source="2" target="14">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="405.90625" y="681.692199707"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="2" target="16">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="344.655487061" y="723.999267578"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="2" target="17">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="374.681091309" y="788.265014648"/>	</y:Path>
+
+            <y:LineStyle color="#808080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Peering, 13 Gbps</data>
+    </edge>
+    <edge source="2" target="18">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="407.482940674" y="677.995239258"/>	</y:Path>
+
+            <y:LineStyle color="#FFFF00" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Fibre ottica spenta (Dark Fibre)</data>
+    </edge>
+    <edge source="2" target="18">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="389.978820801" y="678.468322754"/>	</y:Path>
+
+            <y:LineStyle color="#FFFF00" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Fibre ottica spenta (Dark Fibre)</data>
+    </edge>
+    <edge source="2" target="22">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="2" target="30">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="468.84777832" y="757.998718262"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="3" target="43">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="311.971069336" y="320.206481934"/>	</y:Path>
+
+            <y:LineStyle color="#FFFF00" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Fibre ottica spenta (Dark Fibre)</data>
+    </edge>
+    <edge source="3" target="44">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="269.282928467" y="297.917999268"/>	</y:Path>
+
+            <y:LineStyle color="#FFFF00" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Fibre ottica spenta (Dark Fibre)</data>
+    </edge>
+    <edge source="3" target="45">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="3" target="39">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="463.814300537" y="314.147491455"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="4" target="50">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="404.525024414" y="447.137634277"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="5" target="51">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="261.727508545" y="385.183135986"/>	</y:Path>
+
+            <y:LineStyle color="#800080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">1 Gbps</data>
+    </edge>
+    <edge source="6" target="49">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="6" target="46">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="166.508361816" y="438.434204102"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="6" target="47">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="280.474395752" y="512.728149414"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="7" target="20">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#339966" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">622 Mbps</data>
+    </edge>
+    <edge source="8" target="45">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#808080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Peering, 2 Gbps</data>
+    </edge>
+    <edge source="9" target="43">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="320.161437988" y="274.551300049"/>	</y:Path>
+
+            <y:LineStyle color="#FFFF00" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Fibre ottica spenta (Dark Fibre), 10 Gbps</data>
+    </edge>
+    <edge source="10" target="43">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="384.509033203" y="284.737335205"/>	</y:Path>
+
+            <y:LineStyle color="#808080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Peering, 5 Gbps</data>
+    </edge>
+    <edge source="11" target="45">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="278.175262451" y="295.248718262"/>	</y:Path>
+
+            <y:LineStyle color="#FFFF00" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Fibre ottica spenta (Dark Fibre), 2.5 Gbps</data>
+    </edge>
+    <edge source="12" target="43">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="327.459686279" y="339.850585938"/>	</y:Path>
+
+            <y:LineStyle color="#FFFF00" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Fibre ottica spenta (Dark Fibre), 10 Gbps</data>
+    </edge>
+    <edge source="13" target="16">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FFFF00" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Fibre ottica spenta (Dark Fibre)</data>
+    </edge>
+    <edge source="14" target="21">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="501.612213135" y="646.223022461"/>	</y:Path>
+
+            <y:LineStyle color="#FF6600" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">34 Mbps</data>
+    </edge>
+    <edge source="15" target="16">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="166.847900391" y="849.918457031"/>	</y:Path>
+
+            <y:LineStyle color="#339966" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">622 Mbps</data>
+    </edge>
+    <edge source="16" target="18">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="266.267944336" y="925.634643555"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="18" target="33">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="479.425811768" y="1026.26086426"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="18" target="19">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="415.498077393" y="646.276184082"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="18" target="20">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="434.681793213" y="630.781677246"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="18" target="21">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#339966" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">622 Mbps</data>
+    </edge>
+    <edge source="18" target="22">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="20" target="50">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="478.122070312" y="517.006347656"/>	</y:Path>
+
+            <y:LineStyle color="#800080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">1 Gbps</data>
+    </edge>
+    <edge source="23" target="30">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">34 Mbps</data>
+    </edge>
+    <edge source="24" target="25">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="661.196960449" y="761.378356934"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="25" target="50">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="674.214111328" y="737.029785156"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="25" target="26">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="718.010192871" y="828.521240234"/>	</y:Path>
+
+            <y:LineStyle color="#339966" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">622 Mbps</data>
+    </edge>
+    <edge source="25" target="27">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#339966" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">622 Mbps</data>
+    </edge>
+    <edge source="25" target="28">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#339966" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">622 Mbps</data>
+    </edge>
+    <edge source="25" target="30">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="632.895385742" y="776.87286377"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="29" target="30">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="529.862426758" y="786.46472168"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="29" target="30">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="510.577606201" y="808.544494629"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="30" target="33">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="505.250030518" y="796.05657959"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="31" target="33">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="547.57043457" y="1026.26086426"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="32" target="33">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="574.870300293" y="1035.8527832"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="32" target="52">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="643.276428223" y="973.372924805"/>	</y:Path>
+
+            <y:LineStyle color="#00CCFF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">100 Mbps</data>
+    </edge>
+    <edge source="33" target="34">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="452.389801025" y="1044.70678711"/>	</y:Path>
+
+            <y:LineStyle color="#339966" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">622 Mbps</data>
+    </edge>
+    <edge source="33" target="35">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="712.487915039" y="1139.46655273"/>	</y:Path>
+
+            <y:LineStyle color="#800080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">1 Gbps</data>
+    </edge>
+    <edge source="36" target="45">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="195.623443604" y="289.164337158"/>	</y:Path>
+
+            <y:LineStyle color="#808080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Peering, 4Gbps</data>
+    </edge>
+    <edge source="37" target="45">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#808080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Peering, 5 Gbps</data>
+    </edge>
+    <edge source="38" target="40">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="455.341156006" y="413.120513916"/>	</y:Path>
+
+            <y:LineStyle color="#808080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Peering, 1 Gbps</data>
+    </edge>
+    <edge source="39" target="40">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="476.738342285" y="359.996429443"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="40" target="41">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#339966" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">622 Mbps</data>
+    </edge>
+    <edge source="40" target="50">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="40" target="43">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="385.615661621" y="348.524658203"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="42" target="51">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="318.841796875" y="364.423431396"/>	</y:Path>
+
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="43" target="45">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="268.417785645" y="332.866333008"/>	</y:Path>
+
+            <y:LineStyle color="#FF00FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">10 Gbps</data>
+    </edge>
+    <edge source="43" target="50">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="391.14956665" y="415.334014893"/>	</y:Path>
+
+            <y:LineStyle color="#FF00FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">10 Gbps</data>
+    </edge>
+    <edge source="43" target="50">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="374.179351807" y="390.985473633"/>	</y:Path>
+
+            <y:LineStyle color="#FF00FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">10 Gbps</data>
+    </edge>
+    <edge source="43" target="51">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="297.993530273" y="375.361083984"/>	</y:Path>
+
+            <y:LineStyle color="#FFFF00" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Fibre ottica spenta (Dark Fibre)</data>
+    </edge>
+    <edge source="44" target="45">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FFFF00" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Fibre ottica spenta (Dark Fibre)</data>
+    </edge>
+    <edge source="45" target="46">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="210.542312622" y="345.514282227"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="45" target="47">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF0000" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">155 Mbps</data>
+    </edge>
+    <edge source="45" target="51">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="254.172073364" y="366.672363281"/>	</y:Path>
+
+            <y:LineStyle color="#FFFF00" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Fibre ottica spenta (Dark Fibre)</data>
+    </edge>
+    <edge source="48" target="49">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="376.569946289" y="517.025268555"/>	</y:Path>
+
+            <y:LineStyle color="#FF6600" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">34 Mbps</data>
+    </edge>
+    <edge source="49" target="50">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="364.082702637" y="490.188873291"/>	</y:Path>
+
+            <y:LineStyle color="#0000FF" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">2.5 Gbps</data>
+    </edge>
+    <edge source="49" target="53">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="291.571411133" y="582.379699707"/>	</y:Path>
+
+            <y:LineStyle color="#808080" type="line" width="3"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d31">Peering, 1 Gbps</data>
+    </edge>
+  </graph>
+</graphml>

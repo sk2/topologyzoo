@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">       
+        <key for="node" id="d50" yfiles.type="nodegraphics"/>
+<key for="edge" id="d51" yfiles.type="edgegraphics"/>"
+  <key attr.name="Access" attr.type="boolean" for="graph" id="d18" />
+  <key attr.name="Backbone" attr.type="boolean" for="graph" id="d10" />
+  <key attr.name="Commercial" attr.type="boolean" for="graph" id="d11" />
+  <key attr.name="Creator" attr.type="string" for="graph" id="d20" />
+  <key attr.name="Customer" attr.type="boolean" for="graph" id="d13" />
+  <key attr.name="DateModifier" attr.type="string" for="graph" id="d15" />
+  <key attr.name="DateMonth" attr.type="int" for="graph" id="d16" />
+  <key attr.name="DateObtained" attr.type="string" for="graph" id="d0" />
+  <key attr.name="DateType" attr.type="string" for="graph" id="d9" />
+  <key attr.name="DateYear" attr.type="string" for="graph" id="d24" />
+  <key attr.name="Developed" attr.type="boolean" for="graph" id="d21" />
+  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d2" />
+  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d1" />
+  <key attr.name="IX" attr.type="boolean" for="graph" id="d14" />
+  <key attr.name="Internal" attr.type="boolean" for="node" id="d28" />
+  <key attr.name="LastAccess" attr.type="string" for="graph" id="d17" />
+  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d25" />
+  <key attr.name="Layer" attr.type="string" for="graph" id="d19" />
+  <key attr.name="Network" attr.type="string" for="graph" id="d3" />
+  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d23" />
+  <key attr.name="Note" attr.type="string" for="graph" id="d5" />
+  <key attr.name="Provenance" attr.type="string" for="graph" id="d4" />
+  <key attr.name="Source" attr.type="string" for="graph" id="d6" />
+  <key attr.name="Testbed" attr.type="boolean" for="graph" id="d26" />
+  <key attr.name="Transit" attr.type="boolean" for="graph" id="d22" />
+  <key attr.name="Type" attr.type="string" for="graph" id="d8" />
+  <key attr.name="Version" attr.type="string" for="graph" id="d7" />
+  <key attr.name="geocode_name" attr.type="string" for="node" id="d31" />
+  <key attr.name="hyperedge" attr.type="boolean" for="node" id="d32" />
+  <key attr.name="label" attr.type="string" for="edge" id="d33" />
+  <key attr.name="label" attr.type="string" for="node" id="d27" />
+  <key attr.name="type" attr.type="string" for="node" id="d29" />
+  <graph edgedefault="undirected">
+    <data key="d0">3/02/11</data>
+    <data key="d1">Chile</data>
+    <data key="d2">Country</data>
+    <data key="d3">Reuna</data>
+    <data key="d4">Primary</data>
+    <data key="d5">Grid services + possible others, Names from http://www.reuna.cl/index.php/es/ique-es-reuna/miembros/socios</data>
+    <data key="d6">http://www.reuna.cl/images/stories/documentos/Mapa_Topologia_REUNA_2010.pdf</data>
+    <data key="d7">1.0</data>
+    <data key="d8">REN</data>
+    <data key="d9">Historic</data>
+    <data key="d10">True</data>
+    <data key="d11">False</data>
+    <data key="d13">True</data>
+    <data key="d14">False</data>
+    <data key="d15">=</data>
+    <data key="d16">0</data>
+    <data key="d17">6/03/11</data>
+    <data key="d18">False</data>
+    <data key="d19">IP</data>
+    <data key="d20">Topology Zoo Toolset</data>
+    <data key="d21">False</data>
+    <data key="d22">False</data>
+    <data key="d23">2010</data>
+    <data key="d24">2010</data>
+    <data key="d25">2011_08_17</data>
+    <data key="d26">False</data>
+    <node id="3">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="624.434936523" y="482.459899902"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UDA</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UDA</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="4">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="624.434936523" y="560.283874512"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">ULS</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">ULS</data>
+      <data key="d28">True</data>
+      <data key="d31">La Serena</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="5">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="621.362915039" y="611.995910645"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">AURA</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">AURA</data>
+      <data key="d28">True</data>
+      <data key="d31">La Serena</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="6">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="785.202941895" y="627.867919922"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UCHILE</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UCHILE</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="7">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="792.88293457" y="657.563903809"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UTEM</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UTEM</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="8">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="793.394958496" y="690.843933105"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UMCE</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UMCE</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="9">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="791.346923828" y="726.683898926"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">USACH</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">USACH</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="10">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="789.810913086" y="758.42791748"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">REUNA</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">REUNA</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="11">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="608.562927246" y="777.883911133"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UDEC</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UDEC</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="12">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="621.362915039" y="817.307922363"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UBB</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UBB</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="13">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="625.970947266" y="909.467895508"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UACH</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UACH</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="14">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="797.490966797" y="839.835876465"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UFRO</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UFRO</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="15">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="787.762939453" y="869.531921387"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UCT</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UCT</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="16">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="794.418945312" y="957.08392334"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">ULAGOS</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">ULAGOS</data>
+      <data key="d28">True</data>
+      <data key="d31">Osorno</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="17">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="624.434936523" y="247.451904297"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UNAP</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UNAP</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="18">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="788.78692627" y="187.547912598"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UTA</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UTA</data>
+      <data key="d28">True</data>
+      <data key="d31">Arica</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="19">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="791.346923828" y="352.411895752"/>
+            <y:Fill color="#0000FF" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UCN</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UCN</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Acceso G-REUNA (Catalyst 6503)</data>
+    </node>
+    <node id="20">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="896.358154297" y="774.197509766"/>
+            <y:Fill color="#00FF00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">UNAP Sede Santiago</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">UNAP Sede Santiago</data>
+      <data key="d28">True</data>
+      <data key="d29">Router Accesso REUNA2 (Cisco 7204)</data>
+    </node>
+    <node id="21">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="886.630126953" y="952.373535156"/>
+            <y:Fill color="#00FF00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">ULAGO Puerto Montt</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">ULAGO Puerto Montt</data>
+      <data key="d28">True</data>
+      <data key="d31">Puerto Montt</data>
+      <data key="d29">Router Accesso REUNA2 (Cisco 7204)</data>
+    </node>
+    <node id="22">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="709.478149414" y="185.397506714"/>
+            <y:Fill color="#FF9900" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Arica</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Arica</data>
+      <data key="d28">True</data>
+      <data key="d29">Switch Troncal G-REUNA (Cisco 7606)</data>
+    </node>
+    <node id="23">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="706.918151855" y="251.957504272"/>
+            <y:Fill color="#FF9900" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Iquique</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Iquique</data>
+      <data key="d28">True</data>
+      <data key="d29">Switch Troncal G-REUNA (Cisco 7606)</data>
+    </node>
+    <node id="24">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="707.942138672" y="343.605499268"/>
+            <y:Fill color="#FF9900" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Antofagasta</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Antofagasta</data>
+      <data key="d28">True</data>
+      <data key="d29">Switch Troncal G-REUNA (Cisco 7606)</data>
+    </node>
+    <node id="25">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="704.870117188" y="496.181518555"/>
+            <y:Fill color="#FF9900" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Copiapo</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Copiapo</data>
+      <data key="d28">True</data>
+      <data key="d29">Switch Troncal G-REUNA (Cisco 7606)</data>
+    </node>
+    <node id="26">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="706.918151855" y="587.829528809"/>
+            <y:Fill color="#FF9900" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">La Serena</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">La Serena</data>
+      <data key="d28">True</data>
+      <data key="d29">Switch Troncal G-REUNA (Cisco 7606)</data>
+    </node>
+    <node id="27">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="704.614135742" y="710.325500488"/>
+            <y:Fill color="#FF9900" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Santiago</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Santiago</data>
+      <data key="d28">True</data>
+      <data key="d29">Switch Troncal G-REUNA (Cisco 7606)</data>
+    </node>
+    <node id="28">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="703.33416748" y="798.005493164"/>
+            <y:Fill color="#FF9900" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Concepcion</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Concepcion</data>
+      <data key="d28">True</data>
+      <data key="d29">Switch Troncal G-REUNA (Cisco 7606)</data>
+    </node>
+    <node id="29">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="707.814147949" y="855.605529785"/>
+            <y:Fill color="#FF9900" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Temuco</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Temuco</data>
+      <data key="d28">True</data>
+      <data key="d29">Switch Troncal G-REUNA (Cisco 7606)</data>
+    </node>
+    <node id="30">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="709.094116211" y="894.645507812"/>
+            <y:Fill color="#FF9900" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Valdivia</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Valdivia</data>
+      <data key="d28">True</data>
+      <data key="d29">Switch Troncal G-REUNA (Cisco 7606)</data>
+    </node>
+    <node id="31">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="707.814147949" y="959.925476074"/>
+            <y:Fill color="#FF9900" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">Osorno</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d27">Osorno</data>
+      <data key="d28">True</data>
+      <data key="d29">Switch Troncal G-REUNA (Cisco 7606)</data>
+    </node>
+    <node id="32">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="421.734130859" y="626.485534668"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">RedCLARA</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">RedCLARA</data>
+    </node>
+    <node id="33">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="413.414154053" y="744.245483398"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">PITs Nacionales</y:NodeLabel>
+            <y:Shape type="triangle"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">False</data>
+      <data key="d27">PITs Nacionales</data>
+    </node>
+    <node id="34">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="567.014160156" y="676.405517578"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">RC-12</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">True</data>
+      <data key="d27">RC-12</data>
+    </node>
+    <node id="35">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="30.0" width="30.0" x="575.974121094" y="711.605529785"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625">RC-Nacional</y:NodeLabel>
+            <y:Shape type="ellipse"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d28">True</data>
+      <data key="d27">RC-Nacional</data>
+    </node>
+    <node id="36">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="16.6879997253" width="16.6879997253" x="749.549804688" y="853.705993652"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625"></y:NodeLabel>
+            <y:Shape type="octagon"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d32">True</data>
+      <data key="d28">True</data>
+    </node>
+    <node id="37">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="16.6879997253" width="16.6879997253" x="659.437805176" y="793.802001953"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625"></y:NodeLabel>
+            <y:Shape type="octagon"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d32">True</data>
+      <data key="d28">True</data>
+    </node>
+    <node id="38">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="16.6879997253" width="16.6879997253" x="664.557800293" y="591.562011719"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625"></y:NodeLabel>
+            <y:Shape type="octagon"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d32">True</data>
+      <data key="d28">True</data>
+    </node>
+    <node id="39">
+      <data key="d50">
+            <y:ShapeNode>
+            <y:Geometry height="16.6879997253" width="16.6879997253" x="750.061828613" y="703.177978516"/>
+            <y:Fill color="#FFCC00" transparent="false"/>
+            <y:BorderStyle color="#000000" type="line" width="1.0"/>
+            <y:NodeLabel alignment="center" autoSizePolicy="content"
+            fontFamily="Dialog" fontSize="8" fontStyle="plain"
+            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
+            modelName="internal" modelPosition="c" textColor="#000000"
+            visible="true" width="29.16796875" x="-7.083984375"
+            y="0.7890625"></y:NodeLabel>
+            <y:Shape type="octagon"/>
+            </y:ShapeNode>
+            </data>  
+                  <data key="d32">True</data>
+      <data key="d28">True</data>
+    </node>
+    <edge source="3" target="25">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="4" target="38">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="654.829833984" y="566.473999023"/>	</y:Path>
+
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="5" target="38">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="660.461791992" y="617.67401123"/>	</y:Path>
+
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="6" target="39">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="759.277832031" y="625.865966797"/>	</y:Path>
+
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="7" target="39">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="8" target="39">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="9" target="39">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="10" target="20">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="791.021789551" y="790.729980469"/>	</y:Path>
+
+            <y:LineStyle color="#999999" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                </edge>
+    <edge source="10" target="39">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="756.205810547" y="749.769958496"/>	</y:Path>
+
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="11" target="37">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="660.973815918" y="771.273986816"/>	</y:Path>
+
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="12" target="37">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="655.341796875" y="818.377990723"/>	</y:Path>
+
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="13" target="30">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="14" target="36">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="768.493835449" y="826.057983398"/>	</y:Path>
+
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="15" target="36">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="16" target="21">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#999999" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                </edge>
+    <edge source="16" target="31">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="17" target="23">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="18" target="22">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="19" target="24">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="22" target="23">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">155 Mbps</data>
+    </edge>
+    <edge source="23" target="24">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">155 Mbps</data>
+    </edge>
+    <edge source="24" target="25">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">205 Mbps</data>
+    </edge>
+    <edge source="25" target="26">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">205 Mbps</data>
+    </edge>
+    <edge source="26" target="27">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">301 Mbps</data>
+    </edge>
+    <edge source="26" target="38">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="27" target="35">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="27" target="28">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">301 Mbps</data>
+    </edge>
+    <edge source="27" target="34">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="619.501831055" y="698.057983398"/>	</y:Path>
+
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="27" target="39">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="28" target="29">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">205 Mbps</data>
+    </edge>
+    <edge source="28" target="37">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="29" target="36">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#FF6600" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">Conexion G-REUNA 1 Gbps</data>
+    </edge>
+    <edge source="29" target="30">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">155 Mbps</data>
+    </edge>
+    <edge source="30" target="31">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 
+            <y:LineStyle color="#0000FF" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">155 Mbps</data>
+    </edge>
+    <edge source="32" target="34">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="498.669830322" y="666.313964844"/>	</y:Path>
+
+            <y:LineStyle color="#00FF00" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">1 Gbps</data>
+    </edge>
+    <edge source="33" target="35">
+	<data key="d51"> 
+	<y:PolyLineEdge>
+ 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+<y:Point x="519.661804199" y="714.953979492"/>	</y:Path>
+
+            <y:LineStyle color="#00FF00" type="line" width="2"/>
+            <y:Arrows source="none" target="none"/>
+            <y:BendStyle smoothed="false"/>
+            </y:PolyLineEdge>
+            </data> 
+                  <data key="d33">4x1 Gbps + 2x STM-1</data>
+    </edge>
+  </graph>
+</graphml>
