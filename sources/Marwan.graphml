@@ -1,547 +1,453 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-        <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">       
-        <key for="node" id="d50" yfiles.type="nodegraphics"/>
-<key for="edge" id="d51" yfiles.type="edgegraphics"/>"
-  <key attr.name="Access" attr.type="boolean" for="graph" id="d5" />
-  <key attr.name="Backbone" attr.type="boolean" for="graph" id="d10" />
-  <key attr.name="Commercial" attr.type="boolean" for="graph" id="d11" />
-  <key attr.name="Creator" attr.type="string" for="graph" id="d19" />
-  <key attr.name="Customer" attr.type="boolean" for="graph" id="d13" />
-  <key attr.name="DateModifier" attr.type="string" for="graph" id="d15" />
-  <key attr.name="DateMonth" attr.type="string" for="graph" id="d16" />
-  <key attr.name="DateObtained" attr.type="string" for="graph" id="d0" />
-  <key attr.name="DateType" attr.type="string" for="graph" id="d9" />
-  <key attr.name="DateYear" attr.type="string" for="graph" id="d23" />
-  <key attr.name="Developed" attr.type="boolean" for="graph" id="d20" />
-  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d2" />
-  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d1" />
-  <key attr.name="IX" attr.type="boolean" for="graph" id="d14" />
-  <key attr.name="Internal" attr.type="boolean" for="node" id="d26" />
-  <key attr.name="LastAccess" attr.type="string" for="graph" id="d17" />
-  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d24" />
-  <key attr.name="Layer" attr.type="string" for="graph" id="d18" />
-  <key attr.name="Network" attr.type="string" for="graph" id="d3" />
-  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d22" />
-  <key attr.name="Provenance" attr.type="string" for="graph" id="d4" />
-  <key attr.name="Source" attr.type="string" for="graph" id="d6" />
-  <key attr.name="Testbed" attr.type="boolean" for="graph" id="d25" />
-  <key attr.name="Transit" attr.type="boolean" for="graph" id="d21" />
-  <key attr.name="Type" attr.type="string" for="graph" id="d8" />
-  <key attr.name="Version" attr.type="string" for="graph" id="d7" />
-  <key attr.name="label" attr.type="string" for="edge" id="d29" />
-  <key attr.name="label" attr.type="string" for="node" id="d27" />
-  <graph edgedefault="undirected">
-    <data key="d0">22/10/10</data>
-    <data key="d1">Morocco</data>
-    <data key="d2">Country</data>
-    <data key="d3">MARWAN</data>
-    <data key="d4">Primary</data>
-    <data key="d5">False</data>
-    <data key="d6">http://www.marwan.ma/forms/network.htm</data>
-    <data key="d7">1.0</data>
-    <data key="d8">REN</data>
-    <data key="d9">Current</data>
-    <data key="d10">True</data>
-    <data key="d11">False</data>
-    <data key="d13">True</data>
-    <data key="d14">False</data>
-    <data key="d15">=</data>
-    <data key="d16">10</data>
-    <data key="d17">21/10/10</data>
-    <data key="d18">ATM</data>
-    <data key="d19">Topology Zoo Toolset</data>
-    <data key="d20">False</data>
-    <data key="d21">False</data>
-    <data key="d22">2010_10</data>
-    <data key="d23">2010</data>
-    <data key="d24">2011_08_17</data>
-    <data key="d25">False</data>
-    <node id="0">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="85.07421875" x="134.0" y="78.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Institution 1</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
-      <data key="d27">Institution 1</data>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yFiles for Java 2.8-->
+  <key for="graphml" id="d0" yfiles.type="resources"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="Internal" attr.type="boolean" for="node" id="d4"/>
+  <key attr.name="url" attr.type="string" for="node" id="d5"/>
+  <key attr.name="description" attr.type="string" for="node" id="d6"/>
+  <key for="node" id="d7" yfiles.type="nodegraphics"/>
+  <key attr.name="Creator" attr.type="string" for="graph" id="d8"/>
+  <key attr.name="Version" attr.type="string" for="graph" id="d9"/>
+  <key attr.name="label" attr.type="string" for="edge" id="d10"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d11"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d12"/>
+  <key for="edge" id="d13" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d8"><![CDATA[Topology Zoo Toolset]]></data>
+    <data key="d9"><![CDATA[1.0]]></data>
+    <node id="n0">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="85.07421875" x="134.0" y="78.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="51.3828125" x="16.845703125" y="8.2890625">Institution 1</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="1">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="82.765625" x="80.0" y="180.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">University 3</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
-      <data key="d27">University 3</data>
+    <node id="n1">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="82.765625" x="80.0" y="180.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="49.84375" x="16.4609375" y="8.2890625">University 3</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="2">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="82.765625" x="102.0" y="524.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">University 1</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
-      <data key="d27">University 1</data>
+    <node id="n2">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="82.765625" x="102.0" y="524.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="49.84375" x="16.4609375" y="8.2890625">University 1</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="3">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="53.908203125" x="704.0" y="43.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">GEANT</y:NodeLabel>
-            <y:Shape type="triangle"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">False</data>
-      <data key="d27">GEANT</data>
+    <node id="n3">
+      <data key="d4">false</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="53.908203125" x="704.0" y="43.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="30.60546875" x="11.6513671875" y="8.2890625">GEANT</y:NodeLabel>
+          <y:Shape type="triangle"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="4">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="59.609375" x="480.0" y="60.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Internet</y:NodeLabel>
-            <y:Shape type="triangle"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">False</data>
-      <data key="d27">Internet</data>
+    <node id="n4">
+      <data key="d4">false</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="59.609375" x="480.0" y="60.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="34.40625" x="12.6015625" y="8.2890625">Internet</y:NodeLabel>
+          <y:Shape type="triangle"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="5">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="30.0" x="630.0" y="139.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625"></y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
+    <node id="n5">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="630.0" y="139.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="13.0" y="13.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="6">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="82.765625" x="692.045898438" y="240.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">University 4</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
-      <data key="d27">University 4</data>
+    <node id="n6">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="82.765625" x="692.045898438" y="240.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="49.84375" x="16.4609375" y="8.2890625">University 4</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="7">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="30.0" x="510.0" y="240.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625"></y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
+    <node id="n7">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="510.0" y="240.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="13.0" y="13.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="8">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="30.0" x="210.0" y="259.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625"></y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
+    <node id="n8">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="210.0" y="259.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="4.0" x="13.0" y="13.0"/>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="9">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="41.673828125" x="312.0" y="377.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Casa</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
-      <data key="d27">Casa</data>
+    <node id="n9">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="41.673828125" x="312.0" y="377.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="22.44921875" x="9.6123046875" y="8.2890625">Casa</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="10">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="46.8828125" x="420.0" y="377.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Rabat</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
-      <data key="d27">Rabat</data>
+    <node id="n10">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="46.8828125" x="420.0" y="377.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="25.921875" x="10.48046875" y="8.2890625">Rabat</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="11">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="52.3203125" x="510.0" y="420.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Agadir</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
-      <data key="d27">Agadir</data>
+    <node id="n11">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="52.3203125" x="510.0" y="420.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="29.546875" x="11.38671875" y="8.2890625">Agadir</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="12">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="68.076171875" x="428.44140625" y="469.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Marrkech</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
-      <data key="d27">Marrkech</data>
+    <node id="n12">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="68.076171875" x="428.44140625" y="469.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="40.05078125" x="14.0126953125" y="8.2890625">Marrkech</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="13">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="33.236328125" x="288.0" y="469.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Fes</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
-      <data key="d27">Fes</data>
+    <node id="n13">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="33.236328125" x="288.0" y="469.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="16.82421875" x="8.2060546875" y="8.2890625">Fes</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="14">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="54.740234375" x="226.381835938" y="420.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Tanger</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
-      <data key="d27">Tanger</data>
+    <node id="n14">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="54.740234375" x="226.381835938" y="420.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.16015625" x="11.7900390625" y="8.2890625">Tanger</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="15">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="82.765625" x="645.0" y="510.0"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">University 2</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d26">True</data>
-      <data key="d27">University 2</data>
+    <node id="n15">
+      <data key="d4">true</data>
+      <data key="d6"/>
+      <data key="d7">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="82.765625" x="645.0" y="510.0"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="49.84375" x="16.4609375" y="8.2890625">University 2</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <edge source="0" target="8">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">2Mb/s</data>
+    <edge id="e0" source="n0" target="n8">
+      <data key="d10"><![CDATA[2Mb/s]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="1" target="8">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">2Mb/s</data>
+    <edge id="e1" source="n1" target="n8">
+      <data key="d10"><![CDATA[2Mb/s]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="2" target="14">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">34Mb/s</data>
+    <edge id="e2" source="n2" target="n14">
+      <data key="d10"><![CDATA[34Mb/s]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="3" target="5">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">34Mb/s</data>
+    <edge id="e3" source="n3" target="n5">
+      <data key="d10"><![CDATA[34Mb/s]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="4" target="5">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">34Mb/s</data>
+    <edge id="e4" source="n4" target="n5">
+      <data key="d10"><![CDATA[34Mb/s]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="5" target="7">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">155 Mb/s</data>
+    <edge id="e5" source="n5" target="n7">
+      <data key="d10"><![CDATA[155 Mb/s]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="6" target="7">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">2Mb/s</data>
+    <edge id="e6" source="n6" target="n7">
+      <data key="d10"><![CDATA[2Mb/s]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="7" target="8">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="360.0" y="300.0"/>	</y:Path>
-
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">MPLS</data>
+    <edge id="e7" source="n7" target="n8">
+      <data key="d10"><![CDATA[MPLS]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="360.0" y="300.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="7" target="8">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="360.0" y="210.0"/>	</y:Path>
-
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">MPLS</data>
+    <edge id="e8" source="n7" target="n8">
+      <data key="d10"><![CDATA[MPLS]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="360.0" y="210.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="7" target="10">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">155Mb/s</data>
+    <edge id="e9" source="n7" target="n10">
+      <data key="d10"><![CDATA[155Mb/s]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="8" target="9">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">155Mb/s</data>
+    <edge id="e10" source="n8" target="n9">
+      <data key="d10"><![CDATA[155Mb/s]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="9" target="10">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">ATM</data>
+    <edge id="e11" source="n9" target="n10">
+      <data key="d10"><![CDATA[ATM]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="9" target="14">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">ATM</data>
+    <edge id="e12" source="n9" target="n14">
+      <data key="d10"><![CDATA[ATM]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="10" target="11">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">ATM</data>
+    <edge id="e13" source="n10" target="n11">
+      <data key="d10"><![CDATA[ATM]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="11" target="12">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">ATM</data>
+    <edge id="e14" source="n11" target="n12">
+      <data key="d10"><![CDATA[ATM]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="11" target="15">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">34Mb/s</data>
+    <edge id="e15" source="n11" target="n15">
+      <data key="d10"><![CDATA[34Mb/s]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="12" target="13">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">ATM</data>
+    <edge id="e16" source="n12" target="n13">
+      <data key="d10"><![CDATA[ATM]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="13" target="14">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#000000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d29">ATM</data>
+    <edge id="e17" source="n13" target="n14">
+      <data key="d10"><![CDATA[ATM]]></data>
+      <data key="d12"/>
+      <data key="d13">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
   </graph>
+  <data key="d0">
+    <y:Resources/>
+  </data>
 </graphml>

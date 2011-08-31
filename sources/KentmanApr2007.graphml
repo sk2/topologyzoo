@@ -1,786 +1,686 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-        <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">       
-        <key for="node" id="d50" yfiles.type="nodegraphics"/>
-<key for="edge" id="d51" yfiles.type="edgegraphics"/>"
-  <key attr.name="Access" attr.type="boolean" for="graph" id="d18" />
-  <key attr.name="Backbone" attr.type="boolean" for="graph" id="d10" />
-  <key attr.name="Commercial" attr.type="boolean" for="graph" id="d11" />
-  <key attr.name="Creator" attr.type="string" for="graph" id="d20" />
-  <key attr.name="Customer" attr.type="boolean" for="graph" id="d13" />
-  <key attr.name="DateModifier" attr.type="string" for="graph" id="d15" />
-  <key attr.name="DateMonth" attr.type="string" for="graph" id="d16" />
-  <key attr.name="DateObtained" attr.type="string" for="graph" id="d0" />
-  <key attr.name="DateType" attr.type="string" for="graph" id="d9" />
-  <key attr.name="DateYear" attr.type="string" for="graph" id="d24" />
-  <key attr.name="Developed" attr.type="boolean" for="graph" id="d21" />
-  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d2" />
-  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d1" />
-  <key attr.name="IX" attr.type="boolean" for="graph" id="d14" />
-  <key attr.name="Internal" attr.type="boolean" for="node" id="d28" />
-  <key attr.name="LastAccess" attr.type="string" for="graph" id="d17" />
-  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d25" />
-  <key attr.name="Layer" attr.type="string" for="graph" id="d19" />
-  <key attr.name="Network" attr.type="string" for="graph" id="d3" />
-  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d23" />
-  <key attr.name="Note" attr.type="string" for="graph" id="d5" />
-  <key attr.name="Provenance" attr.type="string" for="graph" id="d4" />
-  <key attr.name="Source" attr.type="string" for="graph" id="d6" />
-  <key attr.name="Testbed" attr.type="boolean" for="graph" id="d26" />
-  <key attr.name="Transit" attr.type="boolean" for="graph" id="d22" />
-  <key attr.name="Type" attr.type="string" for="graph" id="d8" />
-  <key attr.name="Version" attr.type="string" for="graph" id="d7" />
-  <key attr.name="geocode_append" attr.type="string" for="node" id="d32" />
-  <key attr.name="geocode_name" attr.type="string" for="node" id="d29" />
-  <key attr.name="label" attr.type="string" for="edge" id="d33" />
-  <key attr.name="label" attr.type="string" for="node" id="d27" />
-  <key attr.name="type" attr.type="string" for="node" id="d30" />
-  <graph edgedefault="undirected">
-    <data key="d0">31/01/11</data>
-    <data key="d1">Kent, UK</data>
-    <data key="d2">Region</data>
-    <data key="d3">KentMan</data>
-    <data key="d4">Secondary</data>
-    <data key="d5">JANET local provider, Hard to distinguish purple 10 and 100 Mbps links</data>
-    <data key="d6">http://replay.waybackmachine.org/20070622121309/http://www.kentman.ac.uk/kman/map.html</data>
-    <data key="d7">1.0</data>
-    <data key="d8">REN</data>
-    <data key="d9">Historic</data>
-    <data key="d10">True</data>
-    <data key="d11">False</data>
-    <data key="d13">False</data>
-    <data key="d14">False</data>
-    <data key="d15">=</data>
-    <data key="d16">04</data>
-    <data key="d17">31/01/11</data>
-    <data key="d18">False</data>
-    <data key="d19">IP</data>
-    <data key="d20">Topology Zoo Toolset</data>
-    <data key="d21">True</data>
-    <data key="d22">False</data>
-    <data key="d23">2007_04</data>
-    <data key="d24">2007</data>
-    <data key="d25">2011_08_17</data>
-    <data key="d26">False</data>
-    <node id="0">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="67.8551635742" y="64.5844116211"/>
-            <y:Fill color="#FF0000" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">UoG-AH</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">UoG-AH</data>
-      <data key="d28">True</data>
-      <data key="d29">University of Greenwich Avery Hill</data>
-      <data key="d30">PoP Site</data>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yFiles for Java 2.8-->
+  <key for="graphml" id="d0" yfiles.type="resources"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="Internal" attr.type="boolean" for="node" id="d4"/>
+  <key attr.name="geocode_append" attr.type="string" for="node" id="d5"/>
+  <key attr.name="geocode_name" attr.type="string" for="node" id="d6"/>
+  <key attr.name="type" attr.type="string" for="node" id="d7"/>
+  <key attr.name="url" attr.type="string" for="node" id="d8"/>
+  <key attr.name="description" attr.type="string" for="node" id="d9"/>
+  <key for="node" id="d10" yfiles.type="nodegraphics"/>
+  <key attr.name="Creator" attr.type="string" for="graph" id="d11"/>
+  <key attr.name="Version" attr.type="string" for="graph" id="d12"/>
+  <key attr.name="label" attr.type="string" for="edge" id="d13"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d14"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d15"/>
+  <key for="edge" id="d16" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d11"><![CDATA[Topology Zoo Toolset]]></data>
+    <data key="d12"><![CDATA[1.0]]></data>
+    <node id="n0">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[University of Greenwich Avery Hill]]></data>
+      <data key="d7"><![CDATA[PoP Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="67.8551635742" y="64.5844116211"/>
+          <y:Fill color="#FF0000" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="36.265625" x="-13.1328125" y="-1.7109375">UoG-AH</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="1">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="329.61517334" y="114.50440979"/>
-            <y:Fill color="#FF0000" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">University of Greenwich</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d32">Medway</data>
-      <data key="d27">University of Greenwich</data>
-      <data key="d28">True</data>
-      <data key="d30">PoP Site</data>
+    <node id="n1">
+      <data key="d4">true</data>
+      <data key="d5"><![CDATA[Medway]]></data>
+      <data key="d6"/>
+      <data key="d7"><![CDATA[PoP Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="329.61517334" y="114.50440979"/>
+          <y:Fill color="#FF0000" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="95.64453125" x="-42.822265625" y="-1.7109375">University of Greenwich</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="2">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="614.368103027" y="192.642776489"/>
-            <y:Fill color="#FF0000" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">CCCU-C</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">CCCU-C</data>
-      <data key="d28">True</data>
-      <data key="d29">Canterbury Christ Church University</data>
-      <data key="d30">PoP Site</data>
+    <node id="n2">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[Canterbury Christ Church University]]></data>
+      <data key="d7"><![CDATA[PoP Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="614.368103027" y="192.642776489"/>
+          <y:Fill color="#FF0000" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="36.3125" x="-13.15625" y="-1.7109375">CCCU-C</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="3">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="536.505126953" y="276.77154541"/>
-            <y:Fill color="#FF0000" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">IC-Wye</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">IC-Wye</data>
-      <data key="d28">True</data>
-      <data key="d29">Wye</data>
-      <data key="d30">PoP Site</data>
+    <node id="n3">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[Wye]]></data>
+      <data key="d7"><![CDATA[PoP Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="536.505126953" y="276.77154541"/>
+          <y:Fill color="#FF0000" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.94921875" x="-10.974609375" y="-1.7109375">IC-Wye</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="4">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="335.375152588" y="217.288406372"/>
-            <y:Fill color="#FF0000" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">EIS-Maidstone</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">EIS-Maidstone</data>
-      <data key="d28">True</data>
-      <data key="d29">Shepway Centre Maidstone</data>
-      <data key="d30">PoP Site</data>
+    <node id="n4">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[Shepway Centre Maidstone]]></data>
+      <data key="d7"><![CDATA[PoP Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="335.375152588" y="217.288406372"/>
+          <y:Fill color="#FF0000" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="59.640625" x="-24.8203125" y="-1.7109375">EIS-Maidstone</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="5">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="163.076919556" y="297.21673584"/>
-            <y:Fill color="#FF0000" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">CCCU-S</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">CCCU-S</data>
-      <data key="d28">True</data>
-      <data key="d29">Canterbury Christ Church University Salomons</data>
-      <data key="d30">PoP Site</data>
+    <node id="n5">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[Canterbury Christ Church University Salomons]]></data>
+      <data key="d7"><![CDATA[PoP Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="163.076919556" y="297.21673584"/>
+          <y:Fill color="#FF0000" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="35.0859375" x="-12.54296875" y="-1.7109375">CCCU-S</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="6">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="771.855163574" y="121.544410706"/>
-            <y:Fill color="#FF0000" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">CCCU-T</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">CCCU-T</data>
-      <data key="d28">True</data>
-      <data key="d29">Canterbury Christ Church University Broadstairs</data>
-      <data key="d30">PoP Site</data>
+    <node id="n6">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[Canterbury Christ Church University Broadstairs]]></data>
+      <data key="d7"><![CDATA[PoP Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="771.855163574" y="121.544410706"/>
+          <y:Fill color="#FF0000" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="35.8359375" x="-12.91796875" y="-1.7109374999999858">CCCU-T</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="8">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="158.735168457" y="214.344406128"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Dorton College</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Dorton College</data>
-      <data key="d28">True</data>
-      <data key="d29">Dorton House</data>
-      <data key="d30">Connected Site</data>
+    <node id="n7">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[Dorton House]]></data>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="158.735168457" y="214.344406128"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="62.55859375" x="-26.279296875" y="-1.7109375">Dorton College</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="9">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="180.495162964" y="64.5844116211"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">NW Kent College - Dartford</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">NW Kent College - Dartford</data>
-      <data key="d28">True</data>
-      <data key="d29">Dartford</data>
-      <data key="d30">Connected Site</data>
+    <node id="n8">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[Dartford]]></data>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="180.495162964" y="64.5844116211"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="110.9609375" x="-50.48046875" y="-1.7109375">NW Kent College - Dartford</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="10">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="300.283691406" y="121.633491516"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">KIAD-R</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">KIAD-R</data>
-      <data key="d28">True</data>
-      <data key="d29">University for the Creative Arts Rochester</data>
-      <data key="d30">Connected Site</data>
+    <node id="n9">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[University for the Creative Arts Rochester]]></data>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="300.283691406" y="121.633491516"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="32.7265625" x="-11.36328125" y="-1.7109375000000142">KIAD-R</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="11">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="305.103668213" y="142.378707886"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Medway ACL</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Medway ACL</data>
-      <data key="d28">True</data>
-      <data key="d29">Kent Adult and Community Learning Medway</data>
-      <data key="d30">Connected Site</data>
+    <node id="n10">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[Kent Adult and Community Learning Medway]]></data>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="305.103668213" y="142.378707886"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="52.99609375" x="-21.498046875" y="-1.7109375">Medway ACL</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="12">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="339.855163574" y="127.944412231"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Mid Kent College</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Mid Kent College</data>
-      <data key="d28">True</data>
-      <data key="d29">MidKent College Medway</data>
-      <data key="d30">Connected Site</data>
+    <node id="n11">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[MidKent College Medway]]></data>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="339.855163574" y="127.944412231"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="69.9140625" x="-29.95703125" y="-1.7109375">Mid Kent College</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="13">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="623.938415527" y="214.759124756"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">UCCA-C</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">UCCA-C</data>
-      <data key="d28">True</data>
-      <data key="d29">University for the Creative Arts Canterbury</data>
-      <data key="d30">Connected Site</data>
+    <node id="n12">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[University for the Creative Arts Canterbury]]></data>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="623.938415527" y="214.759124756"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="36.296875" x="-13.1484375" y="-1.7109375">UCCA-C</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="14">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="604.838684082" y="215.270111084"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Canterbury College</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Canterbury College</data>
-      <data key="d28">True</data>
-      <data key="d30">Connected Site</data>
+    <node id="n13">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"/>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="604.838684082" y="215.270111084"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="78.6015625" x="-34.30078125" y="-1.7109375">Canterbury College</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="15">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="789.083984375" y="123.029212952"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Thanet College</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Thanet College</data>
-      <data key="d28">True</data>
-      <data key="d30">Connected Site</data>
+    <node id="n14">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"/>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="789.083984375" y="123.029212952"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="62.36328125" x="-26.181640625" y="-1.7109375">Thanet College</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="16">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="782.248779297" y="108.616409302"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Hilderstone College</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Hilderstone College</data>
-      <data key="d28">True</data>
-      <data key="d30">Connected Site</data>
+    <node id="n15">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"/>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="782.248779297" y="108.616409302"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="80.18359375" x="-35.091796875" y="-1.7109375">Hilderstone College</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="17">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="520.335144043" y="305.224395752"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">South Kent College - Ashford</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">South Kent College - Ashford</data>
-      <data key="d28">True</data>
-      <data key="d29">South Kent College</data>
-      <data key="d30">Connected Site</data>
+    <node id="n16">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[South Kent College]]></data>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="520.335144043" y="305.224395752"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="118.23828125" x="-54.119140625" y="-1.7109375">South Kent College - Ashford</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="18">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="315.151184082" y="215.88041687"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">KIAD-O</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">KIAD-O</data>
-      <data key="d28">True</data>
-      <data key="d29">University for the Creative Arts Maidstone</data>
-      <data key="d30">Connected Site</data>
+    <node id="n17">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[University for the Creative Arts Maidstone]]></data>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="315.151184082" y="215.88041687"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="33.8828125" x="-11.94140625" y="-1.7109375">KIAD-O</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="19">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="305.295166016" y="202.184402466"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Kent ACL</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Kent ACL</data>
-      <data key="d28">True</data>
-      <data key="d29">Maidstone Adult Education Centre</data>
-      <data key="d30">Connected Site</data>
+    <node id="n18">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[Maidstone Adult Education Centre]]></data>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="305.295166016" y="202.184402466"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="39.48828125" x="-14.744140625" y="-1.7109375">Kent ACL</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="20">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="221.654846191" y="282.133209229"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Hadlow College</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Hadlow College</data>
-      <data key="d28">True</data>
-      <data key="d29">Hadlow</data>
-      <data key="d30">Connected Site</data>
+    <node id="n19">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[Hadlow]]></data>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="221.654846191" y="282.133209229"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="64.23046875" x="-27.115234375" y="-1.7109375">Hadlow College</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="21">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="171.53515625" y="277.064422607"/>
-            <y:Fill color="#FF6600" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">West Kent College</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">West Kent College</data>
-      <data key="d28">True</data>
-      <data key="d29">KCollege - Tonbridge</data>
-      <data key="d30">Connected Site</data>
+    <node id="n20">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[KCollege - Tonbridge]]></data>
+      <data key="d7"><![CDATA[Connected Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="171.53515625" y="277.064422607"/>
+          <y:Fill color="#FF6600" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="74.046875" x="-32.0234375" y="-1.7109375">West Kent College</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="23">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="10.0" width="10.0" x="597.664306641" y="188.580780029"/>
-            <y:Fill color="#FF0000" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">UoK-C</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">UoK-C</data>
-      <data key="d28">True</data>
-      <data key="d29">University of Kent</data>
-      <data key="d30">PoP Site</data>
+    <node id="n21">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[University of Kent]]></data>
+      <data key="d7"><![CDATA[PoP Site]]></data>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="10.0" width="10.0" x="597.664306641" y="188.580780029"/>
+          <y:Fill color="#FF0000" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="29.84375" x="-9.921875" y="-1.7109375">UoK-C</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="24">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="30.0" width="30.0" x="445.976348877" y="182.793228149"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Kent Community Network (Schools, etc)</y:NodeLabel>
-            <y:Shape type="triangle"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d28">False</data>
-      <data key="d27">Kent Community Network (Schools, etc)</data>
+    <node id="n22">
+      <data key="d4">false</data>
+      <data key="d5"/>
+      <data key="d6"/>
+      <data key="d7"/>
+      <data key="d9"/>
+      <data key="d10">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="445.976348877" y="182.793228149"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="157.8203125" x="-63.91015625" y="8.2890625">Kent Community Network (Schools, etc)</y:NodeLabel>
+          <y:Shape type="triangle"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <edge source="0" target="1">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#800000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">WaveStream 2 Gbps</data>
+    <edge id="e0" source="n0" target="n1">
+      <data key="d13"><![CDATA[WaveStream 2 Gbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#800000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="0" target="9">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES 10 Mbps</data>
+    <edge id="e1" source="n0" target="n8">
+      <data key="d13"><![CDATA[LES 10 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="1" target="4">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#800000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">WaveStream 2 Gbps</data>
+    <edge id="e2" source="n1" target="n4">
+      <data key="d13"><![CDATA[WaveStream 2 Gbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#800000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="1" target="8">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00CCFF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">Megastream 2Mbps</data>
+    <edge id="e3" source="n1" target="n7">
+      <data key="d13"><![CDATA[Megastream 2Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00CCFF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="1" target="10">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES 10 Mbps</data>
+    <edge id="e4" source="n1" target="n9">
+      <data key="d13"><![CDATA[LES 10 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="1" target="11">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES 10 Mbps</data>
+    <edge id="e5" source="n1" target="n10">
+      <data key="d13"><![CDATA[LES 10 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="1" target="12">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES 10 Mbps</data>
+    <edge id="e6" source="n1" target="n11">
+      <data key="d13"><![CDATA[LES 10 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="1" target="19">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES 10 Mbps</data>
+    <edge id="e7" source="n1" target="n18">
+      <data key="d13"><![CDATA[LES 10 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="1" target="23">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#800000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">WaveStream 2 Gbps</data>
+    <edge id="e8" source="n1" target="n21">
+      <data key="d13"><![CDATA[WaveStream 2 Gbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#800000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="3" target="17">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES 10 Mbps</data>
+    <edge id="e9" source="n3" target="n16">
+      <data key="d13"><![CDATA[LES 10 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="3" target="4">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#800000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">WaveStream 2 Gbps</data>
+    <edge id="e10" source="n3" target="n4">
+      <data key="d13"><![CDATA[WaveStream 2 Gbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#800000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="3" target="23">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#800000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">WaveStream 2 Gbps</data>
+    <edge id="e11" source="n3" target="n21">
+      <data key="d13"><![CDATA[WaveStream 2 Gbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#800000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="4" target="24">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#800000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">WaveStream 2 Gbps</data>
+    <edge id="e12" source="n4" target="n22">
+      <data key="d13"><![CDATA[WaveStream 2 Gbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#800000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="4" target="18">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#800080" type="line" width="3"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES/EES/WSES 100 Mbps</data>
+    <edge id="e13" source="n4" target="n17">
+      <data key="d13"><![CDATA[LES/EES/WSES 100 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#800080" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="4" target="5">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#800080" type="line" width="3"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES/EES/WSES 100 Mbps</data>
+    <edge id="e14" source="n4" target="n5">
+      <data key="d13"><![CDATA[LES/EES/WSES 100 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#800080" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="5" target="20">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES 10 Mbps</data>
+    <edge id="e15" source="n5" target="n19">
+      <data key="d13"><![CDATA[LES 10 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="5" target="21">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES 10 Mbps</data>
+    <edge id="e16" source="n5" target="n20">
+      <data key="d13"><![CDATA[LES 10 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="6" target="16">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES 10 Mbps</data>
+    <edge id="e17" source="n6" target="n15">
+      <data key="d13"><![CDATA[LES 10 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="6" target="15">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES 10 Mbps</data>
+    <edge id="e18" source="n6" target="n14">
+      <data key="d13"><![CDATA[LES 10 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="6" target="23">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#FF00FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">Microwave 155 Mbps ATM</data>
+    <edge id="e19" source="n6" target="n21">
+      <data key="d13"><![CDATA[Microwave 155 Mbps ATM]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#FF00FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="6" target="23">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="703.426757812" y="171.100906372"/>	</y:Path>
-
-            <y:LineStyle color="#FF9900" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">Back-up link via KCN2</data>
+    <edge id="e20" source="n6" target="n21">
+      <data key="d13"><![CDATA[Back-up link via KCN2]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="703.426757812" y="171.100906372"/>
+          </y:Path>
+          <y:LineStyle color="#FF9900" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="13" target="23">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#800080" type="line" width="3"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES/EES/WSES 100 Mbps</data>
+    <edge id="e21" source="n12" target="n21">
+      <data key="d13"><![CDATA[LES/EES/WSES 100 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#800080" type="line" width="3.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="14" target="23">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">LES 10 Mbps</data>
+    <edge id="e22" source="n13" target="n21">
+      <data key="d13"><![CDATA[LES 10 Mbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#CC99FF" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
-    <edge source="23" target="24">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#800000" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d33">WaveStream 2 Gbps</data>
+    <edge id="e23" source="n21" target="n22">
+      <data key="d13"><![CDATA[WaveStream 2 Gbps]]></data>
+      <data key="d15"/>
+      <data key="d16">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#800000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
   </graph>
+  <data key="d0">
+    <y:Resources/>
+  </data>
 </graphml>

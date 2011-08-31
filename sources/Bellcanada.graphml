@@ -1,1712 +1,1547 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-        <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">       
-        <key for="node" id="d50" yfiles.type="nodegraphics"/>
-<key for="edge" id="d51" yfiles.type="edgegraphics"/>"
-  <key attr.name="Access" attr.type="boolean" for="graph" id="d18" />
-  <key attr.name="Backbone" attr.type="boolean" for="graph" id="d10" />
-  <key attr.name="Commercial" attr.type="boolean" for="graph" id="d11" />
-  <key attr.name="Creator" attr.type="string" for="graph" id="d20" />
-  <key attr.name="Customer" attr.type="boolean" for="graph" id="d13" />
-  <key attr.name="DateModifier" attr.type="string" for="graph" id="d15" />
-  <key attr.name="DateMonth" attr.type="int" for="graph" id="d16" />
-  <key attr.name="DateObtained" attr.type="string" for="graph" id="d0" />
-  <key attr.name="DateType" attr.type="string" for="graph" id="d9" />
-  <key attr.name="DateYear" attr.type="int" for="graph" id="d24" />
-  <key attr.name="Developed" attr.type="boolean" for="graph" id="d21" />
-  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d2" />
-  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d1" />
-  <key attr.name="IX" attr.type="boolean" for="graph" id="d14" />
-  <key attr.name="Internal" attr.type="boolean" for="node" id="d28" />
-  <key attr.name="LastAccess" attr.type="string" for="graph" id="d17" />
-  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d25" />
-  <key attr.name="Layer" attr.type="string" for="graph" id="d19" />
-  <key attr.name="Network" attr.type="string" for="graph" id="d3" />
-  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d23" />
-  <key attr.name="Note" attr.type="string" for="graph" id="d5" />
-  <key attr.name="Provenance" attr.type="string" for="graph" id="d4" />
-  <key attr.name="Source" attr.type="string" for="graph" id="d6" />
-  <key attr.name="Testbed" attr.type="boolean" for="graph" id="d26" />
-  <key attr.name="Transit" attr.type="boolean" for="graph" id="d22" />
-  <key attr.name="Type" attr.type="string" for="graph" id="d8" />
-  <key attr.name="Version" attr.type="string" for="graph" id="d7" />
-  <key attr.name="geocode_name" attr.type="string" for="node" id="d31" />
-  <key attr.name="label" attr.type="string" for="edge" id="d32" />
-  <key attr.name="label" attr.type="string" for="node" id="d27" />
-  <key attr.name="type" attr.type="string" for="node" id="d29" />
-  <graph edgedefault="undirected">
-    <data key="d0">21/10/10</data>
-    <data key="d1">Canada, USA</data>
-    <data key="d2">Country+</data>
-    <data key="d3">Bell Canada</data>
-    <data key="d4">Secondary</data>
-    <data key="d5">Corporate-only network. Check peering.</data>
-    <data key="d6">http://www.isp-planet.com/img/backbones/bell_canada.jpg</data>
-    <data key="d7">1.0</data>
-    <data key="d8">COM</data>
-    <data key="d9">Historic</data>
-    <data key="d10">True</data>
-    <data key="d11">False</data>
-    <data key="d13">True</data>
-    <data key="d14">False</data>
-    <data key="d15">&lt;</data>
-    <data key="d16">0</data>
-    <data key="d17">3/08/10</data>
-    <data key="d18">True</data>
-    <data key="d19">IP</data>
-    <data key="d20">Topology Zoo Toolset</data>
-    <data key="d21">True</data>
-    <data key="d22">True</data>
-    <data key="d23">&lt;2005</data>
-    <data key="d24">0</data>
-    <data key="d25">2011_08_17</data>
-    <data key="d26">False</data>
-    <node id="0">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="567.952026367" y="443.15838623"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Washington</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Washington</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yFiles for Java 2.8-->
+  <key for="graphml" id="d0" yfiles.type="resources"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="Internal" attr.type="boolean" for="node" id="d4"/>
+  <key attr.name="geocode_name" attr.type="string" for="node" id="d5"/>
+  <key attr.name="type" attr.type="string" for="node" id="d6"/>
+  <key attr.name="url" attr.type="string" for="node" id="d7"/>
+  <key attr.name="description" attr.type="string" for="node" id="d8"/>
+  <key for="node" id="d9" yfiles.type="nodegraphics"/>
+  <key attr.name="Creator" attr.type="string" for="graph" id="d10"/>
+  <key attr.name="Version" attr.type="string" for="graph" id="d11"/>
+  <key attr.name="label" attr.type="string" for="edge" id="d12"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d13"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d14"/>
+  <key for="edge" id="d15" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d10"><![CDATA[Topology Zoo Toolset]]></data>
+    <data key="d11"><![CDATA[1.0]]></data>
+    <node id="n0">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="567.952026367" y="443.15838623"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="49.44140625" x="-20.84070301055999" y="-2.8309373855599915">Washington</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="1">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="518.799987793" y="502.140808105"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Atlanta</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Atlanta</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n1">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="518.799987793" y="502.140808105"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.6171875" x="-11.928593635559992" y="-2.8309373855599915">Atlanta</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="2">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="411.89440918" y="517.705627441"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Dallas</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Dallas</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n2">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="411.89440918" y="517.705627441"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="27.53125" x="-9.885624885559992" y="-2.8309373855599915">Dallas</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="3">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="525.73248291" y="370.490234375"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Sudbury</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Sudbury</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n3">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="525.73248291" y="370.490234375"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="35.76171875" x="-14.000859260559992" y="-2.8309373855599915">Sudbury</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="4">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="466.750091553" y="359.349121094"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Thunder Bay</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Thunder Bay</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n4">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="466.750091553" y="359.349121094"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="52.44921875" x="-22.34460926055999" y="-2.8309373855599915">Thunder Bay</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="5">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="418.908813477" y="346.241912842"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Winnipeg</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Winnipeg</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n5">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="418.908813477" y="346.241912842"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="39.87890625" x="-16.05945301055999" y="-2.8309373855599915">Winnipeg</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="6">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="367.463043213" y="307.575683594"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Saskatoon</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Saskatoon</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n6">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="367.463043213" y="307.575683594"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="43.68359375" x="-17.96179676055999" y="-2.8309373855599915">Saskatoon</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="7">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="365.169281006" y="329.53024292"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Regina</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Regina</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n7">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="365.169281006" y="329.53024292"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="30.19921875" x="-11.219609260559992" y="-2.8309373855599915">Regina</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="8">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="334.367370605" y="323.631988525"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Medicine Hat</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Medicine Hat</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n8">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="334.367370605" y="323.631988525"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="54.34765625" x="-23.29382801055999" y="-2.8309373855599915">Medicine Hat</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="9">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="315.361907959" y="302.98815918"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Red Deer</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Red Deer</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n9">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="315.361907959" y="302.98815918"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="39.26171875" x="-15.750859260559992" y="-2.8309373855599915">Red Deer</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="10">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="317.98336792" y="290.864013672"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Edmonton</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Edmonton</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n10">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="317.98336792" y="290.864013672"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="43.58984375" x="-17.91492176055999" y="-2.8309373855599915">Edmonton</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="11">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="339.937927246" y="262.945678711"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Fort McMurray</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Fort McMurray</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n11">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="339.937927246" y="262.945678711"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="59.98828125" x="-26.11414051055999" y="-2.8309373855599915">Fort McMurray</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="12">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="343.21472168" y="277.10144043"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Cold Lake</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Cold Lake</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n12">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="343.21472168" y="277.10144043"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="42.14453125" x="-17.19226551055999" y="-2.8309373855599915">Cold Lake</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="13">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="298.257019043" y="266.511352539"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Grande Prairie</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Grande Prairie</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n13">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="298.257019043" y="266.511352539"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="58.9296875" x="-25.58484363555999" y="-2.8309373855599915">Grande Prairie</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="14">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="282.593933105" y="251.673477173"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Dawson Creek</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Dawson Creek</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n14">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="282.593933105" y="251.673477173"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="59.4609375" x="-25.85046863555999" y="-2.830937385559963">Dawson Creek</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="15">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="269.81439209" y="280.050567627"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Prince George</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Prince George</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n15">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="269.81439209" y="280.050567627"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="57.9296875" x="-25.08484363555999" y="-2.8309373855599915">Prince George</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="16">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="273.418884277" y="300.366729736"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Kamloops</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Kamloops</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n16">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="273.418884277" y="300.366729736"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="42.36328125" x="-17.30164051055999" y="-2.8309373855599915">Kamloops</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="17">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="278.661773682" y="310.197113037"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Vernon</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Vernon</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n17">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="278.661773682" y="310.197113037"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.8046875" x="-12.022343635559992" y="-2.8309373855599915">Vernon</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="18">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="275.057281494" y="319.699829102"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Kelowna</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Kelowna</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n18">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="275.057281494" y="319.699829102"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="36.453125" x="-14.346562385559992" y="-2.8309373855599915">Kelowna</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="19">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="272.763519287" y="329.857910156"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Penticton?</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Penticton?</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n19">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="272.763519287" y="329.857910156"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="43.4921875" x="-17.86609363555999" y="-2.8309373855599915">Penticton?</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="20">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="255.72416687" y="313.473907471"/>
-            <y:Fill color="#00FF00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Vancouver</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Vancouver</data>
-      <data key="d28">True</data>
-      <data key="d29">City with Colocation</data>
+    <node id="n20">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City with Colocation]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="255.72416687" y="313.473907471"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="44.4609375" x="-18.35046863555999" y="-2.8309373855599915">Vancouver</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="21">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="241.961593628" y="313.146240234"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Courtenay</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Courtenay</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n21">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="241.961593628" y="313.146240234"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="43.69921875" x="-17.96960926055999" y="-2.8309373855599915">Courtenay</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="22">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="258.017913818" y="331.824005127"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Seattle</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Seattle</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n22">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="258.017913818" y="331.824005127"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="29.9375" x="-11.088749885559992" y="-2.8309373855599915">Seattle</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="23">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="246.549118042" y="321.233917236"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Victoria</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Victoria</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n23">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="246.549118042" y="321.233917236"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="33.55078125" x="-12.895390510559992" y="-2.8309373855599915">Victoria</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="24">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="224.266876221" y="428.81729126"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">San Francisco</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">San Francisco</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n24">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="224.266876221" y="428.81729126"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="56.66796875" x="-24.45398426055999" y="-2.8309373855599915">San Francisco</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="25">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="224.201339722" y="448.478057861"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Palo Alto</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Palo Alto</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n25">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="224.201339722" y="448.478057861"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="38.3359375" x="-15.287968635559992" y="-2.8309373855599915">Palo Alto</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="26">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="236.391036987" y="478.952331543"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Los Angeles</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Los Angeles</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n26">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="236.391036987" y="478.952331543"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="50.56640625" x="-21.40320301055999" y="-2.8309373855599915">Los Angeles</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="27">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="479.529602051" y="422.919036865"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Chicago</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Chicago</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n27">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="479.529602051" y="422.919036865"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="35.23046875" x="-13.735234260559992" y="-2.8309373855599915">Chicago</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="28">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="535.890563965" y="393.755523682"/>
-            <y:Fill color="#00FF00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Toronto</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Toronto</data>
-      <data key="d28">True</data>
-      <data key="d29">City with Colocation</data>
+    <node id="n28">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City with Colocation]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="535.890563965" y="393.755523682"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="35.03125" x="-13.635624885559992" y="-2.8309373855599915">Toronto</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="29">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="548.014709473" y="403.258239746"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Buffalo</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Buffalo</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n29">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="548.014709473" y="403.258239746"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.09375" x="-11.666874885559992" y="-2.8309373855599915">Buffalo</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="30">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="585.697937012" y="417.676147461"/>
-            <y:Fill color="#00FF00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">New York</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">New York</data>
-      <data key="d28">True</data>
-      <data key="d29">City with Colocation</data>
+    <node id="n30">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City with Colocation]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="585.697937012" y="417.676147461"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="40.91015625" x="-16.57507801055999" y="-2.8309373855599915">New York</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="31">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="559.811218262" y="377.04385376"/>
-            <y:Fill color="#00FF00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Ottawa</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Ottawa</data>
-      <data key="d28">True</data>
-      <data key="d29">City with Colocation</data>
+    <node id="n31">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City with Colocation]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="559.811218262" y="377.04385376"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.19921875" x="-11.719609260559992" y="-2.8309373855599915">Ottawa</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="32">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="579.471984863" y="365.575042725"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Montreal</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Montreal</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n32">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="579.471984863" y="365.575042725"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="38.22265625" x="-15.231328010559992" y="-2.8309373855599915">Montreal</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="33">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="591.923828125" y="362.625915527"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Sherbrooke</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Sherbrooke</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n33">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="591.923828125" y="362.625915527"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="48.2734375" x="-20.25671863555999" y="-2.8309373855599915">Sherbrooke</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="34">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="591.596130371" y="341.326721191"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Quebec City</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Quebec City</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n34">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="591.596130371" y="341.326721191"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="50.77734375" x="-21.50867176055999" y="-2.8309373855599915">Quebec City</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="35">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="591.268493652" y="329.857910156"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Chicoutimi</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Chicoutimi</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n35">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="591.268493652" y="329.857910156"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="45.875" x="-19.05749988555999" y="-2.8309373855599915">Chicoutimi</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="36">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="601.426574707" y="329.53024292"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Rimouski</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Rimouski</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n36">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="601.426574707" y="329.53024292"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="39.78515625" x="-16.01257801055999" y="-2.8309373855599915">Rimouski</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="37">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="601.426574707" y="319.372161865"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Baie-Comeau</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Baie-Comeau</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n37">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="601.426574707" y="319.372161865"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="56.17578125" x="-24.20789051055999" y="-2.8309373855599915">Baie-Comeau</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="38">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="607.980163574" y="306.592651367"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Sept -Iles</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Sept -Iles</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n38">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="607.980163574" y="306.592651367"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="41.10546875" x="-16.67273426055999" y="-2.8309373855599915">Sept -Iles</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="39">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="643.041931152" y="334.117767334"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Charlottetown</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Charlottetown</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n39">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="643.041931152" y="334.117767334"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="58.89453125" x="-25.56726551055999" y="-2.8309373855599915">Charlottetown</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="40">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="631.900817871" y="340.015991211"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Moncton</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Moncton</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n40">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="631.900817871" y="340.015991211"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="37.73828125" x="-14.989140510559992" y="-2.8309373855599915">Moncton</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="41">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="626.985595703" y="357.710723877"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Saint John</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Saint John</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n41">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="626.985595703" y="357.710723877"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="42.859375" x="-17.54968738555999" y="-2.8309373855599915">Saint John</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="42">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="617.231994629" y="351.7081604"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Fredericton</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Fredericton</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n42">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="617.231994629" y="351.7081604"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="48.06640625" x="-20.15320301055999" y="-2.8309373855599915">Fredericton</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="43">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="645.991027832" y="360.004486084"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Halifax</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Halifax</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n43">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="645.991027832" y="360.004486084"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.1875" x="-11.713749885559992" y="-2.8309373855599915">Halifax</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="44">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="646.974060059" y="343.948150635"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Onslow</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Onslow</data>
-      <data key="d28">True</data>
-      <data key="d31">Bible Hill, Canada</data>
-      <data key="d29">City</data>
+    <node id="n44">
+      <data key="d4">true</data>
+      <data key="d5"><![CDATA[Bible Hill, Canada]]></data>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="646.974060059" y="343.948150635"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="32.6484375" x="-12.444218635559992" y="-2.8309373855599915">Onslow</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="45">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="699.402893066" y="300.366729736"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">St John's</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">St John's</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n45">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="699.402893066" y="300.366729736"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="37.07421875" x="-14.657109260559992" y="-2.8309373855599915">St John's</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="46">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="316.42175293" y="316.160888672"/>
-            <y:Fill color="#00FF00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Calgary</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Calgary</data>
-      <data key="d28">True</data>
-      <data key="d29">City with Colocation</data>
+    <node id="n46">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City with Colocation]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="316.42175293" y="316.160888672"/>
+          <y:Fill color="#00FF00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="33.125" x="-12.682499885559992" y="-2.8309373855599915">Calgary</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <node id="47">
-      <data key="d50">
-            <y:ShapeNode>
-            <y:Geometry height="7.76000022888" width="7.76000022888" x="319.621765137" y="335.559539795"/>
-            <y:Fill color="#FFCC00" transparent="false"/>
-            <y:BorderStyle color="#000000" type="line" width="1.0"/>
-            <y:NodeLabel alignment="center" autoSizePolicy="content"
-            fontFamily="Dialog" fontSize="8" fontStyle="plain"
-            hasBackgroundColor="false" hasLineColor="false" height="13.421875"
-            modelName="internal" modelPosition="c" textColor="#000000"
-            visible="true" width="29.16796875" x="-7.083984375"
-            y="0.7890625">Lethbridge</y:NodeLabel>
-            <y:Shape type="ellipse"/>
-            </y:ShapeNode>
-            </data>  
-                  <data key="d27">Lethbridge</data>
-      <data key="d28">True</data>
-      <data key="d29">City</data>
+    <node id="n47">
+      <data key="d4">true</data>
+      <data key="d5"/>
+      <data key="d6"><![CDATA[City]]></data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:ShapeNode>
+          <y:Geometry height="7.76000022888" width="7.76000022888" x="319.621765137" y="335.559539795"/>
+          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="8" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="13.421875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="45.78125" x="-19.01062488555999" y="-2.8309373855599915">Lethbridge</y:NodeLabel>
+          <y:Shape type="ellipse"/>
+        </y:ShapeNode>
+      </data>
     </node>
-    <edge source="0" target="1">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="0" target="26">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="410.63760376" y="449.592803955"/>	</y:Path>
-
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="0" target="30">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="1" target="2">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="2" target="27">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="3" target="28">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="3" target="4">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="489.818756104" y="344.603515625"/>	</y:Path>
-
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="4" target="5">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="5" target="27">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="5" target="6">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="5" target="7">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="6" target="10">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="7" target="8">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="8" target="46">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="9" target="10">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="9" target="46">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="10" target="11">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="10" target="12">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="10" target="13">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="10" target="16">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="296.618621826" y="287.718261719"/>	</y:Path>
-
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="13" target="14">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="14" target="15">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="15" target="16">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="16" target="17">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="16" target="20">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="17" target="18">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="18" target="19">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="18" target="20">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="18" target="46">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="296.618621826" y="322.845581055"/>	</y:Path>
-
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="20" target="46">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="300.55078125" y="313.932678223"/>	</y:Path>
-
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="20" target="22">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="20" target="23">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="21" target="23">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="22" target="24">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="224.266876221" y="382.876556396"/>	</y:Path>
-
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="22" target="25">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="22" target="26">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="269.735198975" y="410.271209717"/>	</y:Path>
-
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="22" target="23">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="24" target="25">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="25" target="26">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Leased Fiber Route</data>
-    </edge>
-    <edge source="27" target="28">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="539.14831543" y="403.641693115"/>	</y:Path>
-
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="28" target="29">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="28" target="31">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="29" target="30">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="30" target="32">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="31" target="32">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="32" target="33">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="32" target="34">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="33" target="34">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="33" target="34">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="34" target="42">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="34" target="35">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="34" target="40">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="35" target="36">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="36" target="37">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="37" target="38">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="39" target="40">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="39" target="44">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="40" target="41">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="40" target="44">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="41" target="42">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="41" target="43">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="43" target="44">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="43" target="45">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="685.378173828" y="334.117767334"/>	</y:Path>
-
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="44" target="45">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 	<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-<y:Point x="676.203125" y="332.282745361"/>	</y:Path>
-
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
-    </edge>
-    <edge source="46" target="47">
-	<data key="d51"> 
-	<y:PolyLineEdge>
- 
-            <y:LineStyle color="#00FF00" type="line" width="1.0"/>
-            <y:Arrows source="none" target="none"/>
-            <y:BendStyle smoothed="false"/>
-            </y:PolyLineEdge>
-            </data> 
-                  <data key="d32">Bell Canada Fiber Routes</data>
+    <edge id="e0" source="n0" target="n1">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n0" target="n26">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="410.63760376" y="449.592803955"/>
+          </y:Path>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n0" target="n30">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n1" target="n2">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n2" target="n27">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n3" target="n28">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n3" target="n4">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="489.818756104" y="344.603515625"/>
+          </y:Path>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n4" target="n5">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n5" target="n27">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n5" target="n6">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n5" target="n7">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n6" target="n10">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n7" target="n8">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n8" target="n46">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e14" source="n9" target="n10">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e15" source="n9" target="n46">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e16" source="n10" target="n11">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n10" target="n12">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e18" source="n10" target="n13">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e19" source="n10" target="n16">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="296.618621826" y="287.718261719"/>
+          </y:Path>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e20" source="n13" target="n14">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e21" source="n14" target="n15">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e22" source="n15" target="n16">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n16" target="n17">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e24" source="n16" target="n20">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e25" source="n17" target="n18">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e26" source="n18" target="n19">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e27" source="n18" target="n20">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e28" source="n18" target="n46">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="296.618621826" y="322.845581055"/>
+          </y:Path>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e29" source="n20" target="n46">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="300.55078125" y="313.932678223"/>
+          </y:Path>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e30" source="n20" target="n22">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e31" source="n20" target="n23">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e32" source="n21" target="n23">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e33" source="n22" target="n24">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="224.266876221" y="382.876556396"/>
+          </y:Path>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e34" source="n22" target="n25">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e35" source="n22" target="n26">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="269.735198975" y="410.271209717"/>
+          </y:Path>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e36" source="n22" target="n23">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e37" source="n24" target="n25">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e38" source="n25" target="n26">
+      <data key="d12"><![CDATA[Leased Fiber Route]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e39" source="n27" target="n28">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="539.14831543" y="403.641693115"/>
+          </y:Path>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e40" source="n28" target="n29">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e41" source="n28" target="n31">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e42" source="n29" target="n30">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e43" source="n30" target="n32">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e44" source="n31" target="n32">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e45" source="n32" target="n33">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e46" source="n32" target="n34">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e47" source="n33" target="n34">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e48" source="n33" target="n34">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e49" source="n34" target="n42">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e50" source="n34" target="n35">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e51" source="n34" target="n40">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e52" source="n35" target="n36">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e53" source="n36" target="n37">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e54" source="n37" target="n38">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e55" source="n39" target="n40">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e56" source="n39" target="n44">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e57" source="n40" target="n41">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e58" source="n40" target="n44">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e59" source="n41" target="n42">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e60" source="n41" target="n43">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e61" source="n43" target="n44">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e62" source="n43" target="n45">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="685.378173828" y="334.117767334"/>
+          </y:Path>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e63" source="n44" target="n45">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="676.203125" y="332.282745361"/>
+          </y:Path>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e64" source="n46" target="n47">
+      <data key="d12"><![CDATA[Bell Canada Fiber Routes]]></data>
+      <data key="d14"/>
+      <data key="d15">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#00FF00" type="line" width="1.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
     </edge>
   </graph>
+  <data key="d0">
+    <y:Resources/>
+  </data>
 </graphml>
