@@ -11,15 +11,63 @@
   <key attr.name="url" attr.type="string" for="node" id="d7"/>
   <key attr.name="description" attr.type="string" for="node" id="d8"/>
   <key for="node" id="d9" yfiles.type="nodegraphics"/>
-  <key attr.name="Creator" attr.type="string" for="graph" id="d10"/>
-  <key attr.name="Version" attr.type="string" for="graph" id="d11"/>
-  <key attr.name="label" attr.type="string" for="edge" id="d12"/>
-  <key attr.name="url" attr.type="string" for="edge" id="d13"/>
-  <key attr.name="description" attr.type="string" for="edge" id="d14"/>
-  <key for="edge" id="d15" yfiles.type="edgegraphics"/>
+  <key attr.name="Access" attr.type="boolean" for="graph" id="d10"/>
+  <key attr.name="Backbone" attr.type="boolean" for="graph" id="d11"/>
+  <key attr.name="Commercial" attr.type="boolean" for="graph" id="d12"/>
+  <key attr.name="Creator" attr.type="string" for="graph" id="d13"/>
+  <key attr.name="Customer" attr.type="boolean" for="graph" id="d14"/>
+  <key attr.name="DateModifier" attr.type="string" for="graph" id="d15"/>
+  <key attr.name="DateMonth" attr.type="string" for="graph" id="d16"/>
+  <key attr.name="DateObtained" attr.type="string" for="graph" id="d17"/>
+  <key attr.name="DateType" attr.type="string" for="graph" id="d18"/>
+  <key attr.name="DateYear" attr.type="string" for="graph" id="d19"/>
+  <key attr.name="Developed" attr.type="boolean" for="graph" id="d20"/>
+  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d21"/>
+  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d22"/>
+  <key attr.name="IX" attr.type="boolean" for="graph" id="d23"/>
+  <key attr.name="LastAccess" attr.type="string" for="graph" id="d24"/>
+  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d25"/>
+  <key attr.name="Layer" attr.type="string" for="graph" id="d26"/>
+  <key attr.name="Network" attr.type="string" for="graph" id="d27"/>
+  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d28"/>
+  <key attr.name="Note" attr.type="string" for="graph" id="d29"/>
+  <key attr.name="Provenance" attr.type="string" for="graph" id="d30"/>
+  <key attr.name="Source" attr.type="string" for="graph" id="d31"/>
+  <key attr.name="Testbed" attr.type="boolean" for="graph" id="d32"/>
+  <key attr.name="Transit" attr.type="boolean" for="graph" id="d33"/>
+  <key attr.name="Type" attr.type="string" for="graph" id="d34"/>
+  <key attr.name="Version" attr.type="string" for="graph" id="d35"/>
+  <key attr.name="label" attr.type="string" for="edge" id="d36"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d37"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d38"/>
+  <key for="edge" id="d39" yfiles.type="edgegraphics"/>
   <graph edgedefault="directed" id="G">
-    <data key="d10"><![CDATA[Topology Zoo Toolset]]></data>
-    <data key="d11"><![CDATA[1.0]]></data>
+    <data key="d10">false</data>
+    <data key="d11">true</data>
+    <data key="d12">false</data>
+    <data key="d13"><![CDATA[Topology Zoo Toolset]]></data>
+    <data key="d14">false</data>
+    <data key="d15"><![CDATA[=]]></data>
+    <data key="d16"><![CDATA[02]]></data>
+    <data key="d17"><![CDATA[20/03/11]]></data>
+    <data key="d18"><![CDATA[Historic]]></data>
+    <data key="d19"><![CDATA[2009]]></data>
+    <data key="d20">true</data>
+    <data key="d21"><![CDATA[Continent]]></data>
+    <data key="d22"><![CDATA[Europe]]></data>
+    <data key="d23">false</data>
+    <data key="d24"><![CDATA[20/03/11]]></data>
+    <data key="d25"><![CDATA[2011_09_01]]></data>
+    <data key="d26"><![CDATA[IP]]></data>
+    <data key="d27"><![CDATA[GEANT]]></data>
+    <data key="d28"><![CDATA[2009_02]]></data>
+    <data key="d29"><![CDATA[Node classifications from http://www.geant.net/Media_Centre/Media_Library/Media%20Library/GN3-10-279_DS1.1.1,2%20Final%20GEANT%20Architecture_v1.pdf]]></data>
+    <data key="d30"><![CDATA[Primary]]></data>
+    <data key="d31"><![CDATA[http://www.geant2.net/upload/pdf/GN2_Topology_Feb_09.pdf]]></data>
+    <data key="d32">true</data>
+    <data key="d33">true</data>
+    <data key="d34"><![CDATA[REN]]></data>
+    <data key="d35"><![CDATA[1.0]]></data>
     <node id="n0">
       <data key="d4">true</data>
       <data key="d5"/>
@@ -531,9 +579,9 @@
       </data>
     </node>
     <edge id="e0" source="n0" target="n10">
-      <data key="d12"><![CDATA[310 Mbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[310 Mbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="323.100158691" y="715.030151367"/>
@@ -545,9 +593,9 @@
       </data>
     </edge>
     <edge id="e1" source="n1" target="n2">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="323.183654785" y="823.276306152"/>
@@ -559,9 +607,9 @@
       </data>
     </edge>
     <edge id="e2" source="n2" target="n15">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="3.0"/>
@@ -571,9 +619,9 @@
       </data>
     </edge>
     <edge id="e3" source="n2" target="n21">
-      <data key="d12"><![CDATA[2.5 Gbit/s]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[2.5 Gbit/s]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="142.327667236" y="848.538330078"/>
@@ -585,9 +633,9 @@
       </data>
     </edge>
     <edge id="e4" source="n2" target="n13">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="454.383666992" y="891.276306152"/>
@@ -599,9 +647,9 @@
       </data>
     </edge>
     <edge id="e5" source="n3" target="n10">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="559.183654785" y="697.676269531"/>
@@ -613,9 +661,9 @@
       </data>
     </edge>
     <edge id="e6" source="n3" target="n4">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="573.583679199" y="636.876281738"/>
@@ -627,9 +675,9 @@
       </data>
     </edge>
     <edge id="e7" source="n4" target="n10">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="673.583679199" y="736.876281738"/>
@@ -641,9 +689,9 @@
       </data>
     </edge>
     <edge id="e8" source="n4" target="n5">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="674.383666992" y="588.076293945"/>
@@ -655,9 +703,9 @@
       </data>
     </edge>
     <edge id="e9" source="n6" target="n10">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="614.383666992" y="678.476318359"/>
@@ -669,9 +717,9 @@
       </data>
     </edge>
     <edge id="e10" source="n6" target="n7">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333399" type="line" width="3.0"/>
@@ -681,9 +729,9 @@
       </data>
     </edge>
     <edge id="e11" source="n7" target="n8">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333399" type="line" width="3.0"/>
@@ -693,9 +741,9 @@
       </data>
     </edge>
     <edge id="e12" source="n8" target="n11">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="835.983642578" y="860.076293945"/>
@@ -707,9 +755,9 @@
       </data>
     </edge>
     <edge id="e13" source="n9" target="n16">
-      <data key="d12"><![CDATA[2.5 Gbit/s]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[2.5 Gbit/s]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="592.783691406" y="954.476318359"/>
@@ -721,9 +769,9 @@
       </data>
     </edge>
     <edge id="e14" source="n9" target="n10">
-      <data key="d12"><![CDATA[2.5 Gbit/s]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[2.5 Gbit/s]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="1040.78369141" y="564.876281738"/>
@@ -735,9 +783,9 @@
       </data>
     </edge>
     <edge id="e15" source="n10" target="n12">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="497.583679199" y="766.476318359"/>
@@ -749,9 +797,9 @@
       </data>
     </edge>
     <edge id="e16" source="n10" target="n16">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="597.583679199" y="916.876281738"/>
@@ -763,9 +811,9 @@
       </data>
     </edge>
     <edge id="e17" source="n11" target="n17">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="718.383666992" y="911.276306152"/>
@@ -777,9 +825,9 @@
       </data>
     </edge>
     <edge id="e18" source="n11" target="n16">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="577.583679199" y="870.476318359"/>
@@ -791,9 +839,9 @@
       </data>
     </edge>
     <edge id="e19" source="n12" target="n16">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="544.783691406" y="848.076293945"/>
@@ -805,9 +853,9 @@
       </data>
     </edge>
     <edge id="e20" source="n12" target="n33">
-      <data key="d12"><![CDATA[34/45 Mbit/s]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[34/45 Mbit/s]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="457.550170898" y="1343.63012695"/>
@@ -819,9 +867,9 @@
       </data>
     </edge>
     <edge id="e21" source="n12" target="n13">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="3.0"/>
@@ -831,9 +879,9 @@
       </data>
     </edge>
     <edge id="e22" source="n14" target="n16">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333399" type="line" width="3.0"/>
@@ -843,9 +891,9 @@
       </data>
     </edge>
     <edge id="e23" source="n14" target="n15">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333399" type="line" width="3.0"/>
@@ -855,9 +903,9 @@
       </data>
     </edge>
     <edge id="e24" source="n15" target="n20">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="258.383666992" y="951.276306152"/>
@@ -869,9 +917,9 @@
       </data>
     </edge>
     <edge id="e25" source="n15" target="n18">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="503.183654785" y="968.876281738"/>
@@ -883,9 +931,9 @@
       </data>
     </edge>
     <edge id="e26" source="n16" target="n32">
-      <data key="d12"><![CDATA[2.5 Gbit/s]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[2.5 Gbit/s]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="588.473693848" y="1386.52624512"/>
@@ -897,9 +945,9 @@
       </data>
     </edge>
     <edge id="e27" source="n16" target="n17">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="3.0"/>
@@ -909,9 +957,9 @@
       </data>
     </edge>
     <edge id="e28" source="n16" target="n18">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="535.183654785" y="976.076293945"/>
@@ -923,9 +971,9 @@
       </data>
     </edge>
     <edge id="e29" source="n16" target="n24">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="567.183654785" y="971.276306152"/>
@@ -937,9 +985,9 @@
       </data>
     </edge>
     <edge id="e30" source="n17" target="n22">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="738.383666992" y="949.676269531"/>
@@ -951,9 +999,9 @@
       </data>
     </edge>
     <edge id="e31" source="n18" target="n19">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="544.783691406" y="1015.27630615"/>
@@ -965,9 +1013,9 @@
       </data>
     </edge>
     <edge id="e32" source="n18" target="n20">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="507.183654785" y="1132.87634277"/>
@@ -979,9 +1027,9 @@
       </data>
     </edge>
     <edge id="e33" source="n19" target="n33">
-      <data key="d12"><![CDATA[34/45 Mbit/s]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[34/45 Mbit/s]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="611.150146484" y="1070.8302002"/>
@@ -993,9 +1041,9 @@
       </data>
     </edge>
     <edge id="e34" source="n19" target="n20">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="551.983642578" y="1142.47631836"/>
@@ -1007,9 +1055,9 @@
       </data>
     </edge>
     <edge id="e35" source="n19" target="n24">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="571.183654785" y="989.676269531"/>
@@ -1021,9 +1069,9 @@
       </data>
     </edge>
     <edge id="e36" source="n19" target="n30">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="576.783691406" y="1298.47631836"/>
@@ -1035,9 +1083,9 @@
       </data>
     </edge>
     <edge id="e37" source="n19" target="n31">
-      <data key="d12"><![CDATA[155 Mbit/s]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[155 Mbit/s]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="549.207641602" y="1336.69824219"/>
@@ -1049,9 +1097,9 @@
       </data>
     </edge>
     <edge id="e38" source="n20" target="n21">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333399" type="line" width="3.0"/>
@@ -1061,9 +1109,9 @@
       </data>
     </edge>
     <edge id="e39" source="n22" target="n24">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="715.183654785" y="965.676269531"/>
@@ -1075,9 +1123,9 @@
       </data>
     </edge>
     <edge id="e40" source="n22" target="n23">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="804.783691406" y="996.876281738"/>
@@ -1089,9 +1137,9 @@
       </data>
     </edge>
     <edge id="e41" source="n23" target="n26">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="3.0"/>
@@ -1101,9 +1149,9 @@
       </data>
     </edge>
     <edge id="e42" source="n23" target="n27">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="767.183654785" y="1134.47631836"/>
@@ -1115,9 +1163,9 @@
       </data>
     </edge>
     <edge id="e43" source="n23" target="n28">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="887.983642578" y="1032.07629395"/>
@@ -1129,9 +1177,9 @@
       </data>
     </edge>
     <edge id="e44" source="n24" target="n25">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="3.0"/>
@@ -1141,9 +1189,9 @@
       </data>
     </edge>
     <edge id="e45" source="n24" target="n30">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="705.583679199" y="1274.47631836"/>
@@ -1155,9 +1203,9 @@
       </data>
     </edge>
     <edge id="e46" source="n25" target="n26">
-      <data key="d12"><![CDATA[Lit Fibre (10 Gbps)]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[Lit Fibre (10 Gbps)]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="3.0"/>
@@ -1167,9 +1215,9 @@
       </data>
     </edge>
     <edge id="e47" source="n27" target="n28">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="901.583679199" y="1140.87634277"/>
@@ -1181,9 +1229,9 @@
       </data>
     </edge>
     <edge id="e48" source="n27" target="n29">
-      <data key="d12"><![CDATA[2.5 Gbit/s]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[2.5 Gbit/s]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="868.727661133" y="1190.93835449"/>
@@ -1195,9 +1243,9 @@
       </data>
     </edge>
     <edge id="e49" source="n27" target="n30">
-      <data key="d12"><![CDATA[10 Gbps]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[10 Gbps]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333399" type="line" width="3.0"/>
@@ -1207,9 +1255,9 @@
       </data>
     </edge>
     <edge id="e50" source="n28" target="n29">
-      <data key="d12"><![CDATA[2.5 Gbit/s]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[2.5 Gbit/s]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="987.127685547" y="1094.13830566"/>
@@ -1221,9 +1269,9 @@
       </data>
     </edge>
     <edge id="e51" source="n30" target="n31">
-      <data key="d12"><![CDATA[155 Mbit/s]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d36"><![CDATA[155 Mbit/s]]></data>
+      <data key="d38"/>
+      <data key="d39">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="1023.60766602" y="1299.0982666"/>

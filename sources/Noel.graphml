@@ -10,14 +10,60 @@
   <key attr.name="url" attr.type="string" for="node" id="d6"/>
   <key attr.name="description" attr.type="string" for="node" id="d7"/>
   <key for="node" id="d8" yfiles.type="nodegraphics"/>
-  <key attr.name="Creator" attr.type="string" for="graph" id="d9"/>
-  <key attr.name="Version" attr.type="string" for="graph" id="d10"/>
-  <key attr.name="url" attr.type="string" for="edge" id="d11"/>
-  <key attr.name="description" attr.type="string" for="edge" id="d12"/>
-  <key for="edge" id="d13" yfiles.type="edgegraphics"/>
+  <key attr.name="Access" attr.type="boolean" for="graph" id="d9"/>
+  <key attr.name="Backbone" attr.type="boolean" for="graph" id="d10"/>
+  <key attr.name="Commercial" attr.type="boolean" for="graph" id="d11"/>
+  <key attr.name="Creator" attr.type="string" for="graph" id="d12"/>
+  <key attr.name="Customer" attr.type="boolean" for="graph" id="d13"/>
+  <key attr.name="DateModifier" attr.type="string" for="graph" id="d14"/>
+  <key attr.name="DateMonth" attr.type="string" for="graph" id="d15"/>
+  <key attr.name="DateObtained" attr.type="string" for="graph" id="d16"/>
+  <key attr.name="DateType" attr.type="string" for="graph" id="d17"/>
+  <key attr.name="DateYear" attr.type="string" for="graph" id="d18"/>
+  <key attr.name="Developed" attr.type="boolean" for="graph" id="d19"/>
+  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d20"/>
+  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d21"/>
+  <key attr.name="IX" attr.type="boolean" for="graph" id="d22"/>
+  <key attr.name="LastAccess" attr.type="string" for="graph" id="d23"/>
+  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d24"/>
+  <key attr.name="Layer" attr.type="string" for="graph" id="d25"/>
+  <key attr.name="Network" attr.type="string" for="graph" id="d26"/>
+  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d27"/>
+  <key attr.name="Provenance" attr.type="string" for="graph" id="d28"/>
+  <key attr.name="Source" attr.type="string" for="graph" id="d29"/>
+  <key attr.name="Testbed" attr.type="boolean" for="graph" id="d30"/>
+  <key attr.name="Transit" attr.type="boolean" for="graph" id="d31"/>
+  <key attr.name="Type" attr.type="string" for="graph" id="d32"/>
+  <key attr.name="Version" attr.type="string" for="graph" id="d33"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d34"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d35"/>
+  <key for="edge" id="d36" yfiles.type="edgegraphics"/>
   <graph edgedefault="directed" id="G">
-    <data key="d9"><![CDATA[Topology Zoo Toolset]]></data>
-    <data key="d10"><![CDATA[1.0]]></data>
+    <data key="d9">false</data>
+    <data key="d10">true</data>
+    <data key="d11">false</data>
+    <data key="d12"><![CDATA[Topology Zoo Toolset]]></data>
+    <data key="d13">false</data>
+    <data key="d14"><![CDATA[=]]></data>
+    <data key="d15"><![CDATA[08]]></data>
+    <data key="d16"><![CDATA[19/10/10]]></data>
+    <data key="d17"><![CDATA[Dynamic]]></data>
+    <data key="d18"><![CDATA[2010]]></data>
+    <data key="d19">true</data>
+    <data key="d20"><![CDATA[Region]]></data>
+    <data key="d21"><![CDATA[Washington State, USA]]></data>
+    <data key="d22">false</data>
+    <data key="d23"><![CDATA[3/08/10]]></data>
+    <data key="d24"><![CDATA[2011_09_01]]></data>
+    <data key="d25"><![CDATA[IP]]></data>
+    <data key="d26"><![CDATA[Noel Communications ]]></data>
+    <data key="d27"><![CDATA[2010_08]]></data>
+    <data key="d28"><![CDATA[Primary]]></data>
+    <data key="d29"><![CDATA[http://noelcommunications.com/network.html]]></data>
+    <data key="d30">false</data>
+    <data key="d31">false</data>
+    <data key="d32"><![CDATA[COM]]></data>
+    <data key="d33"><![CDATA[1.0]]></data>
     <node id="n0">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Canada]]></data>
@@ -285,8 +331,8 @@
       </data>
     </node>
     <edge id="e0" source="n0" target="n1">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#00FF00" type="line" width="3.0"/>
@@ -296,8 +342,8 @@
       </data>
     </edge>
     <edge id="e1" source="n0" target="n4">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="56.2960014343" y="186.520004272"/>
@@ -309,8 +355,8 @@
       </data>
     </edge>
     <edge id="e2" source="n1" target="n2">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#00FF00" type="line" width="3.0"/>
@@ -320,8 +366,8 @@
       </data>
     </edge>
     <edge id="e3" source="n2" target="n3">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#00FF00" type="line" width="3.0"/>
@@ -331,8 +377,8 @@
       </data>
     </edge>
     <edge id="e4" source="n3" target="n4">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#00FF00" type="line" width="3.0"/>
@@ -342,8 +388,8 @@
       </data>
     </edge>
     <edge id="e5" source="n4" target="n5">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#00FF00" type="line" width="3.0"/>
@@ -353,8 +399,8 @@
       </data>
     </edge>
     <edge id="e6" source="n4" target="n7">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="179.175994873" y="469.656005859"/>
@@ -366,8 +412,8 @@
       </data>
     </edge>
     <edge id="e7" source="n4" target="n8">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="211.944000244" y="381.079986572"/>
@@ -379,8 +425,8 @@
       </data>
     </edge>
     <edge id="e8" source="n4" target="n10">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="243.175994873" y="294.040008545"/>
@@ -392,8 +438,8 @@
       </data>
     </edge>
     <edge id="e9" source="n5" target="n6">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="132.583999634" y="386.712005615"/>
@@ -405,8 +451,8 @@
       </data>
     </edge>
     <edge id="e10" source="n6" target="n7">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="82.9199981689" y="501.911987305"/>
@@ -418,8 +464,8 @@
       </data>
     </edge>
     <edge id="e11" source="n7" target="n18">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="425.0" y="552.599975586"/>
@@ -431,8 +477,8 @@
       </data>
     </edge>
     <edge id="e12" source="n8" target="n17">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="381.928009033" y="448.664001465"/>
@@ -444,8 +490,8 @@
       </data>
     </edge>
     <edge id="e13" source="n8" target="n18">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="375.783996582" y="488.600006104"/>
@@ -457,8 +503,8 @@
       </data>
     </edge>
     <edge id="e14" source="n8" target="n11">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="357.351989746" y="395.415985107"/>
@@ -470,8 +516,8 @@
       </data>
     </edge>
     <edge id="e15" source="n8" target="n9">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#00FF00" type="line" width="3.0"/>
@@ -481,8 +527,8 @@
       </data>
     </edge>
     <edge id="e16" source="n9" target="n10">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#00FF00" type="line" width="3.0"/>
@@ -492,8 +538,8 @@
       </data>
     </edge>
     <edge id="e17" source="n10" target="n12">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="533.479980469" y="321.399993896"/>
@@ -505,8 +551,8 @@
       </data>
     </edge>
     <edge id="e18" source="n11" target="n12">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="542.184020996" y="361.62399292"/>
@@ -518,8 +564,8 @@
       </data>
     </edge>
     <edge id="e19" source="n12" target="n13">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="624.616027832" y="310.42401123"/>
@@ -531,8 +577,8 @@
       </data>
     </edge>
     <edge id="e20" source="n12" target="n14">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#00FF00" type="line" width="3.0"/>
@@ -542,8 +588,8 @@
       </data>
     </edge>
     <edge id="e21" source="n14" target="n15">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#00FF00" type="line" width="3.0"/>
@@ -553,8 +599,8 @@
       </data>
     </edge>
     <edge id="e22" source="n16" target="n17">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="485.351989746" y="480.600006104"/>
@@ -566,8 +612,8 @@
       </data>
     </edge>
     <edge id="e23" source="n16" target="n18">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="478.600006104" y="519.799987793"/>
@@ -579,8 +625,8 @@
       </data>
     </edge>
     <edge id="e24" source="n17" target="n18">
-      <data key="d12"/>
-      <data key="d13">
+      <data key="d35"/>
+      <data key="d36">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#00FF00" type="line" width="3.0"/>

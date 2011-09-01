@@ -11,15 +11,61 @@
   <key attr.name="url" attr.type="string" for="node" id="d7"/>
   <key attr.name="description" attr.type="string" for="node" id="d8"/>
   <key for="node" id="d9" yfiles.type="nodegraphics"/>
-  <key attr.name="Creator" attr.type="string" for="graph" id="d10"/>
-  <key attr.name="Version" attr.type="string" for="graph" id="d11"/>
-  <key attr.name="label" attr.type="string" for="edge" id="d12"/>
-  <key attr.name="url" attr.type="string" for="edge" id="d13"/>
-  <key attr.name="description" attr.type="string" for="edge" id="d14"/>
-  <key for="edge" id="d15" yfiles.type="edgegraphics"/>
+  <key attr.name="Access" attr.type="boolean" for="graph" id="d10"/>
+  <key attr.name="Backbone" attr.type="boolean" for="graph" id="d11"/>
+  <key attr.name="Commercial" attr.type="boolean" for="graph" id="d12"/>
+  <key attr.name="Creator" attr.type="string" for="graph" id="d13"/>
+  <key attr.name="Customer" attr.type="boolean" for="graph" id="d14"/>
+  <key attr.name="DateModifier" attr.type="string" for="graph" id="d15"/>
+  <key attr.name="DateMonth" attr.type="string" for="graph" id="d16"/>
+  <key attr.name="DateObtained" attr.type="string" for="graph" id="d17"/>
+  <key attr.name="DateType" attr.type="string" for="graph" id="d18"/>
+  <key attr.name="DateYear" attr.type="string" for="graph" id="d19"/>
+  <key attr.name="Developed" attr.type="boolean" for="graph" id="d20"/>
+  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d21"/>
+  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d22"/>
+  <key attr.name="IX" attr.type="boolean" for="graph" id="d23"/>
+  <key attr.name="LastAccess" attr.type="string" for="graph" id="d24"/>
+  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d25"/>
+  <key attr.name="Layer" attr.type="string" for="graph" id="d26"/>
+  <key attr.name="Network" attr.type="string" for="graph" id="d27"/>
+  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d28"/>
+  <key attr.name="Provenance" attr.type="string" for="graph" id="d29"/>
+  <key attr.name="Source" attr.type="string" for="graph" id="d30"/>
+  <key attr.name="Testbed" attr.type="boolean" for="graph" id="d31"/>
+  <key attr.name="Transit" attr.type="boolean" for="graph" id="d32"/>
+  <key attr.name="Type" attr.type="string" for="graph" id="d33"/>
+  <key attr.name="Version" attr.type="string" for="graph" id="d34"/>
+  <key attr.name="label" attr.type="string" for="edge" id="d35"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d36"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d37"/>
+  <key for="edge" id="d38" yfiles.type="edgegraphics"/>
   <graph edgedefault="directed" id="G">
-    <data key="d10"><![CDATA[Topology Zoo Toolset]]></data>
-    <data key="d11"><![CDATA[1.0]]></data>
+    <data key="d10">false</data>
+    <data key="d11">true</data>
+    <data key="d12">false</data>
+    <data key="d13"><![CDATA[Topology Zoo Toolset]]></data>
+    <data key="d14">true</data>
+    <data key="d15"><![CDATA[=]]></data>
+    <data key="d16"><![CDATA[01]]></data>
+    <data key="d17"><![CDATA[16/01/11]]></data>
+    <data key="d18"><![CDATA[Current]]></data>
+    <data key="d19"><![CDATA[2011]]></data>
+    <data key="d20">true</data>
+    <data key="d21"><![CDATA[Country+]]></data>
+    <data key="d22"><![CDATA[USA, Europe, Japan]]></data>
+    <data key="d23">false</data>
+    <data key="d24"><![CDATA[16/01/11]]></data>
+    <data key="d25"><![CDATA[2011_09_01]]></data>
+    <data key="d26"><![CDATA[IP]]></data>
+    <data key="d27"><![CDATA[AboveNet]]></data>
+    <data key="d28"><![CDATA[2011_01]]></data>
+    <data key="d29"><![CDATA[Primary]]></data>
+    <data key="d30"><![CDATA[http://www.above.net/maps/images/ABVT_overall.gif]]></data>
+    <data key="d31">false</data>
+    <data key="d32">true</data>
+    <data key="d33"><![CDATA[COM]]></data>
+    <data key="d34"><![CDATA[1.0]]></data>
     <node id="n0">
       <data key="d4">true</data>
       <data key="d5"/>
@@ -344,9 +390,9 @@
       </data>
     </node>
     <edge id="e0" source="n0" target="n1">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -356,9 +402,9 @@
       </data>
     </edge>
     <edge id="e1" source="n0" target="n7">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="293.43963623" y="145.283416748"/>
@@ -370,9 +416,9 @@
       </data>
     </edge>
     <edge id="e2" source="n1" target="n3">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -382,9 +428,9 @@
       </data>
     </edge>
     <edge id="e3" source="n2" target="n3">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="105.023635864" y="146.266448975"/>
@@ -396,9 +442,9 @@
       </data>
     </edge>
     <edge id="e4" source="n3" target="n4">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -408,9 +454,9 @@
       </data>
     </edge>
     <edge id="e5" source="n3" target="n6">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -420,9 +466,9 @@
       </data>
     </edge>
     <edge id="e6" source="n4" target="n5">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -432,9 +478,9 @@
       </data>
     </edge>
     <edge id="e7" source="n5" target="n22">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="253.462677002" y="246.208847046"/>
@@ -446,9 +492,9 @@
       </data>
     </edge>
     <edge id="e8" source="n6" target="n21">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -458,9 +504,9 @@
       </data>
     </edge>
     <edge id="e9" source="n7" target="n13">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="373.065887451" y="149.543258667"/>
@@ -472,9 +518,9 @@
       </data>
     </edge>
     <edge id="e10" source="n7" target="n21">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -484,9 +530,9 @@
       </data>
     </edge>
     <edge id="e11" source="n8" target="n9">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -496,9 +542,9 @@
       </data>
     </edge>
     <edge id="e12" source="n8" target="n21">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -508,9 +554,9 @@
       </data>
     </edge>
     <edge id="e13" source="n8" target="n22">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -520,9 +566,9 @@
       </data>
     </edge>
     <edge id="e14" source="n9" target="n22">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -532,9 +578,9 @@
       </data>
     </edge>
     <edge id="e15" source="n10" target="n11">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -544,9 +590,9 @@
       </data>
     </edge>
     <edge id="e16" source="n10" target="n12">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -556,9 +602,9 @@
       </data>
     </edge>
     <edge id="e17" source="n10" target="n22">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="333.088928223" y="214.42388916"/>
@@ -570,9 +616,9 @@
       </data>
     </edge>
     <edge id="e18" source="n11" target="n22">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="336.365722656" y="234.412368774"/>
@@ -584,9 +630,9 @@
       </data>
     </edge>
     <edge id="e19" source="n12" target="n16">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="386.222412109" y="145.003204346"/>
@@ -598,9 +644,9 @@
       </data>
     </edge>
     <edge id="e20" source="n12" target="n17">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="394.365081787" y="169.859420776"/>
@@ -612,9 +658,9 @@
       </data>
     </edge>
     <edge id="e21" source="n12" target="n15">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -624,9 +670,9 @@
       </data>
     </edge>
     <edge id="e22" source="n13" target="n16">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -636,9 +682,9 @@
       </data>
     </edge>
     <edge id="e23" source="n13" target="n17">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="447.44921875" y="144.628051758"/>
@@ -650,9 +696,9 @@
       </data>
     </edge>
     <edge id="e24" source="n13" target="n18">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="423.905609131" y="142.136001587"/>
@@ -664,9 +710,9 @@
       </data>
     </edge>
     <edge id="e25" source="n13" target="n14">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -676,9 +722,9 @@
       </data>
     </edge>
     <edge id="e26" source="n14" target="n15">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -688,9 +734,9 @@
       </data>
     </edge>
     <edge id="e27" source="n17" target="n20">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="500.910400391" y="121.246398926"/>
@@ -702,9 +748,9 @@
       </data>
     </edge>
     <edge id="e28" source="n17" target="n18">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#333333" type="line" width="1.0"/>
@@ -714,9 +760,9 @@
       </data>
     </edge>
     <edge id="e29" source="n18" target="n19">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="554.15838623" y="106.091201782"/>
@@ -728,9 +774,9 @@
       </data>
     </edge>
     <edge id="e30" source="n19" target="n20">
-      <data key="d12"><![CDATA[Leased Wavelength/Managed Service]]></data>
-      <data key="d14"/>
-      <data key="d15">
+      <data key="d35"><![CDATA[Leased Wavelength/Managed Service]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="534.907226562" y="140.087997437"/>

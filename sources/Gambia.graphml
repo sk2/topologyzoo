@@ -10,18 +10,67 @@
   <key attr.name="url" attr.type="string" for="node" id="d6"/>
   <key attr.name="description" attr.type="string" for="node" id="d7"/>
   <key for="node" id="d8" yfiles.type="nodegraphics"/>
-  <key attr.name="Creator" attr.type="string" for="graph" id="d9"/>
-  <key attr.name="Version" attr.type="string" for="graph" id="d10"/>
-  <key attr.name="label" attr.type="string" for="edge" id="d11"/>
-  <key attr.name="url" attr.type="string" for="edge" id="d12"/>
-  <key attr.name="description" attr.type="string" for="edge" id="d13"/>
-  <key for="edge" id="d14" yfiles.type="edgegraphics"/>
+  <key attr.name="Access" attr.type="boolean" for="graph" id="d9"/>
+  <key attr.name="Backbone" attr.type="boolean" for="graph" id="d10"/>
+  <key attr.name="Commercial" attr.type="boolean" for="graph" id="d11"/>
+  <key attr.name="Creator" attr.type="string" for="graph" id="d12"/>
+  <key attr.name="Customer" attr.type="boolean" for="graph" id="d13"/>
+  <key attr.name="DateModifier" attr.type="string" for="graph" id="d14"/>
+  <key attr.name="DateMonth" attr.type="string" for="graph" id="d15"/>
+  <key attr.name="DateObtained" attr.type="string" for="graph" id="d16"/>
+  <key attr.name="DateType" attr.type="string" for="graph" id="d17"/>
+  <key attr.name="DateYear" attr.type="string" for="graph" id="d18"/>
+  <key attr.name="Developed" attr.type="boolean" for="graph" id="d19"/>
+  <key attr.name="GeoExtent" attr.type="string" for="graph" id="d20"/>
+  <key attr.name="GeoLocation" attr.type="string" for="graph" id="d21"/>
+  <key attr.name="IX" attr.type="boolean" for="graph" id="d22"/>
+  <key attr.name="LastAccess" attr.type="string" for="graph" id="d23"/>
+  <key attr.name="LastProcessed" attr.type="string" for="graph" id="d24"/>
+  <key attr.name="Layer" attr.type="string" for="graph" id="d25"/>
+  <key attr.name="Network" attr.type="string" for="graph" id="d26"/>
+  <key attr.name="NetworkDate" attr.type="string" for="graph" id="d27"/>
+  <key attr.name="Note" attr.type="string" for="graph" id="d28"/>
+  <key attr.name="Provenance" attr.type="string" for="graph" id="d29"/>
+  <key attr.name="Source" attr.type="string" for="graph" id="d30"/>
+  <key attr.name="Testbed" attr.type="boolean" for="graph" id="d31"/>
+  <key attr.name="Transit" attr.type="boolean" for="graph" id="d32"/>
+  <key attr.name="Type" attr.type="string" for="graph" id="d33"/>
+  <key attr.name="Version" attr.type="string" for="graph" id="d34"/>
+  <key attr.name="label" attr.type="string" for="edge" id="d35"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d36"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d37"/>
+  <key for="edge" id="d38" yfiles.type="edgegraphics"/>
   <graph edgedefault="directed" id="G">
-    <data key="d9"><![CDATA[Topology Zoo Toolset]]></data>
-    <data key="d10"><![CDATA[1.0]]></data>
+    <data key="d9">false</data>
+    <data key="d10">true</data>
+    <data key="d11">false</data>
+    <data key="d12"><![CDATA[Topology Zoo Toolset]]></data>
+    <data key="d13">false</data>
+    <data key="d14"><![CDATA[=]]></data>
+    <data key="d15"><![CDATA[07]]></data>
+    <data key="d16"><![CDATA[24/01/11]]></data>
+    <data key="d17"><![CDATA[Historic]]></data>
+    <data key="d18"><![CDATA[2001]]></data>
+    <data key="d19">false</data>
+    <data key="d20"><![CDATA[Country]]></data>
+    <data key="d21"><![CDATA[Gambia]]></data>
+    <data key="d22">false</data>
+    <data key="d23"><![CDATA[24/01/11]]></data>
+    <data key="d24"><![CDATA[2011_09_01]]></data>
+    <data key="d25"><![CDATA[IP]]></data>
+    <data key="d26"><![CDATA[Gambia]]></data>
+    <data key="d27"><![CDATA[2001_07]]></data>
+    <data key="d28"><![CDATA[Node names hard to read, Country-wide network, not a true provider]]></data>
+    <data key="d29"><![CDATA[Secondary]]></data>
+    <data key="d30"><![CDATA[http://www.nsrc.org/AFRICA/GM/GM-connectivity.gif]]></data>
+    <data key="d31">false</data>
+    <data key="d32">true</data>
+    <data key="d33"><![CDATA[REN]]></data>
+    <data key="d34"><![CDATA[1.0]]></data>
     <node id="n0">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="337.0" y="187.0"/>
@@ -35,6 +84,7 @@
     <node id="n1">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="383.0" y="330.0"/>
@@ -48,6 +98,7 @@
     <node id="n2">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="516.640014648" y="227.240005493"/>
@@ -61,6 +112,7 @@
     <node id="n3">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="646.0" y="267.0"/>
@@ -74,6 +126,7 @@
     <node id="n4">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="151.0" y="320.0"/>
@@ -87,6 +140,7 @@
     <node id="n5">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="125.0" y="438.0"/>
@@ -100,6 +154,7 @@
     <node id="n6">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="227.0" y="552.0"/>
@@ -113,6 +168,7 @@
     <node id="n7">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="418.0" y="473.0"/>
@@ -126,6 +182,7 @@
     <node id="n8">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="511.0" y="550.0"/>
@@ -139,6 +196,7 @@
     <node id="n9">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="661.0" y="554.0"/>
@@ -152,6 +210,7 @@
     <node id="n10">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="613.0" y="473.0"/>
@@ -165,6 +224,7 @@
     <node id="n11">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Core Node]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="575.0" y="330.0"/>
@@ -178,6 +238,7 @@
     <node id="n12">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Commercial ISP]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="445.720001221" y="140.800003052"/>
@@ -191,6 +252,7 @@
     <node id="n13">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Commercial ISP]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="480.760009766" y="185.320007324"/>
@@ -204,6 +266,7 @@
     <node id="n14">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Commercial ISP]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="689.288024902" y="374.984008789"/>
@@ -217,6 +280,7 @@
     <node id="n15">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Education/Research]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="730.367980957" y="198.647994995"/>
@@ -230,6 +294,7 @@
     <node id="n16">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Education/Research]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="544.127990723" y="358.95199585"/>
@@ -243,6 +308,7 @@
     <node id="n17">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Education/Research]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="519.42401123" y="394.096008301"/>
@@ -256,6 +322,7 @@
     <node id="n18">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Education/Research]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="365.824005127" y="409.272003174"/>
@@ -269,6 +336,7 @@
     <node id="n19">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Education/Research]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="292.992004395" y="388.071990967"/>
@@ -282,6 +350,7 @@
     <node id="n20">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[NGO/International Organisations]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="623.375976562" y="222.63999939"/>
@@ -295,6 +364,7 @@
     <node id="n21">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[NGO/International Organisations]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="440.208007812" y="409.088012695"/>
@@ -308,6 +378,7 @@
     <node id="n22">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Other]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="732.463989258" y="286.720001221"/>
@@ -321,6 +392,7 @@
     <node id="n23">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Other]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="728.760009766" y="330.32800293"/>
@@ -334,6 +406,7 @@
     <node id="n24">
       <data key="d4">true</data>
       <data key="d5"><![CDATA[Other]]></data>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="10.0" width="10.0" x="104.613700867" y="295.095550537"/>
@@ -347,6 +420,7 @@
     <node id="n25">
       <data key="d4">false</data>
       <data key="d5"/>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="244.141708374" y="160.751556396"/>
@@ -360,6 +434,7 @@
     <node id="n26">
       <data key="d4">false</data>
       <data key="d5"/>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="146.851409912" y="59.0151176453"/>
@@ -373,6 +448,7 @@
     <node id="n27">
       <data key="d4">false</data>
       <data key="d5"/>
+      <data key="d7"/>
       <data key="d8">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="30.0" x="68.8251113892" y="165.174682617"/>
@@ -384,8 +460,9 @@
       </data>
     </node>
     <edge id="e0" source="n0" target="n1">
-      <data key="d11"><![CDATA[2 Mbit/s]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#0000FF" type="line" width="4.0"/>
@@ -395,8 +472,9 @@
       </data>
     </edge>
     <edge id="e1" source="n0" target="n12">
-      <data key="d11"><![CDATA[10 Mbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[10 Mbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#FF99CC" type="line" width="4.0"/>
@@ -406,8 +484,9 @@
       </data>
     </edge>
     <edge id="e2" source="n0" target="n25">
-      <data key="d11"><![CDATA[10 Mbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[10 Mbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#FF99CC" type="line" width="4.0"/>
@@ -417,8 +496,9 @@
       </data>
     </edge>
     <edge id="e3" source="n0" target="n13">
-      <data key="d11"><![CDATA[10 Mbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[10 Mbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#FF99CC" type="line" width="4.0"/>
@@ -428,8 +508,9 @@
       </data>
     </edge>
     <edge id="e4" source="n1" target="n2">
-      <data key="d11"><![CDATA[2 Mbit/s]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#0000FF" type="line" width="4.0"/>
@@ -439,8 +520,9 @@
       </data>
     </edge>
     <edge id="e5" source="n1" target="n3">
-      <data key="d11"><![CDATA[2 Mbit/s]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#0000FF" type="line" width="4.0"/>
@@ -450,8 +532,9 @@
       </data>
     </edge>
     <edge id="e6" source="n1" target="n4">
-      <data key="d11"><![CDATA[2 Mbit/s (Gamtel Backbone)]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s (Gamtel Backbone)]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#0000FF" type="line" width="4.0"/>
@@ -461,8 +544,9 @@
       </data>
     </edge>
     <edge id="e7" source="n1" target="n5">
-      <data key="d11"><![CDATA[2 Mbit/s]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#0000FF" type="line" width="4.0"/>
@@ -472,8 +556,9 @@
       </data>
     </edge>
     <edge id="e8" source="n1" target="n11">
-      <data key="d11"><![CDATA[2 Mbit/s]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#0000FF" type="line" width="4.0"/>
@@ -483,8 +568,9 @@
       </data>
     </edge>
     <edge id="e9" source="n1" target="n16">
-      <data key="d11"><![CDATA[64 Kbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[64 Kbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#FFCC00" type="line" width="4.0"/>
@@ -494,8 +580,9 @@
       </data>
     </edge>
     <edge id="e10" source="n1" target="n17">
-      <data key="d11"><![CDATA[128 Kbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[128 Kbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="484.974304199" y="389.188751221"/>
@@ -507,8 +594,9 @@
       </data>
     </edge>
     <edge id="e11" source="n1" target="n18">
-      <data key="d11"><![CDATA[64 Kbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[64 Kbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#FFCC00" type="line" width="4.0"/>
@@ -518,8 +606,9 @@
       </data>
     </edge>
     <edge id="e12" source="n1" target="n19">
-      <data key="d11"><![CDATA[64 Kbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[64 Kbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#FFCC00" type="line" width="4.0"/>
@@ -529,8 +618,9 @@
       </data>
     </edge>
     <edge id="e13" source="n1" target="n21">
-      <data key="d11"><![CDATA[64 Kbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[64 Kbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#FFCC00" type="line" width="4.0"/>
@@ -540,8 +630,9 @@
       </data>
     </edge>
     <edge id="e14" source="n3" target="n20">
-      <data key="d11"><![CDATA[64 Kbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[64 Kbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#FFCC00" type="line" width="4.0"/>
@@ -551,8 +642,9 @@
       </data>
     </edge>
     <edge id="e15" source="n3" target="n15">
-      <data key="d11"><![CDATA[128 Kbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[128 Kbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="718.574279785" y="208.068740845"/>
@@ -564,8 +656,9 @@
       </data>
     </edge>
     <edge id="e16" source="n4" target="n24">
-      <data key="d11"><![CDATA[10 Mbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[10 Mbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#FF99CC" type="line" width="4.0"/>
@@ -575,8 +668,9 @@
       </data>
     </edge>
     <edge id="e17" source="n5" target="n6">
-      <data key="d11"><![CDATA[2 Mbit/s]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#0000FF" type="line" width="4.0"/>
@@ -586,8 +680,9 @@
       </data>
     </edge>
     <edge id="e18" source="n6" target="n8">
-      <data key="d11"><![CDATA[2 Mbit/s]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#0000FF" type="line" width="4.0"/>
@@ -597,8 +692,9 @@
       </data>
     </edge>
     <edge id="e19" source="n6" target="n7">
-      <data key="d11"><![CDATA[2 Mbit/s]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#0000FF" type="line" width="4.0"/>
@@ -608,8 +704,9 @@
       </data>
     </edge>
     <edge id="e20" source="n7" target="n10">
-      <data key="d11"><![CDATA[2 Mbit/s]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#0000FF" type="line" width="4.0"/>
@@ -619,8 +716,9 @@
       </data>
     </edge>
     <edge id="e21" source="n8" target="n9">
-      <data key="d11"><![CDATA[2 Mbit/s]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#0000FF" type="line" width="4.0"/>
@@ -630,8 +728,9 @@
       </data>
     </edge>
     <edge id="e22" source="n10" target="n11">
-      <data key="d11"><![CDATA[2 Mbit/s]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[2 Mbit/s]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="660.334289551" y="476.228729248"/>
@@ -643,8 +742,9 @@
       </data>
     </edge>
     <edge id="e23" source="n11" target="n14">
-      <data key="d11"><![CDATA[128 Kbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[128 Kbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#00FF00" type="line" width="4.0"/>
@@ -654,8 +754,9 @@
       </data>
     </edge>
     <edge id="e24" source="n11" target="n22">
-      <data key="d11"><![CDATA[10 Mbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[10 Mbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#FF99CC" type="line" width="4.0"/>
@@ -665,8 +766,9 @@
       </data>
     </edge>
     <edge id="e25" source="n11" target="n23">
-      <data key="d11"><![CDATA[64 Kbps]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[64 Kbps]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#FFCC00" type="line" width="4.0"/>
@@ -676,8 +778,9 @@
       </data>
     </edge>
     <edge id="e26" source="n25" target="n26">
-      <data key="d11"><![CDATA[Satellite Link]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[Satellite Link]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
@@ -687,8 +790,9 @@
       </data>
     </edge>
     <edge id="e27" source="n26" target="n27">
-      <data key="d11"><![CDATA[Satellite Link]]></data>
-      <data key="d14">
+      <data key="d35"><![CDATA[Satellite Link]]></data>
+      <data key="d37"/>
+      <data key="d38">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
